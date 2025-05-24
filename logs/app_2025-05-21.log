@@ -1,0 +1,8 @@
+2025-05-21 16:07:52.689 [Test worker] WARN  org.example.shoppingapp.model.Product - Normalization skipped for product P002 due to null packageUnitInput.
+2025-05-21 16:07:52.696 [Test worker] WARN  org.example.shoppingapp.model.Product - Normalization skipped for product P002 due to null packageUnitInput.
+2025-05-21 16:07:52.705 [Test worker] WARN  org.example.shoppingapp.model.Product - Normalization skipped for product P002 due to null packageUnitInput.
+2025-05-21 16:07:52.707 [Test worker] WARN  org.example.shoppingapp.model.Product - Normalization skipped for product P003 due to null packageUnitInput.
+2025-05-21 16:11:55.229 [Test worker] WARN  org.example.shoppingapp.model.Discount - Warning: Discount percentage -5.0% for product P123 is outside the 0-100 range. Using as is.
+2025-05-21 16:11:55.245 [Test worker] WARN  org.example.shoppingapp.model.Discount - Warning: Discount percentage 105.0% for product P123 is outside the 0-100 range. Using as is.
+2025-05-21 16:11:55.252 [Test worker] WARN  org.example.shoppingapp.model.Discount - Warning: Discount percentage -0.01% for product P123 is outside the 0-100 range. Using as is.
+2025-05-21 16:11:55.257 [Test worker] WARN  org.example.shoppingapp.model.Discount - Warning: Discount percentage 100.01% for product P123 is outside the 0-100 range. Using as is.

@@ -1,0 +1,14 @@
+2025-05-14 13:45:38.888 [main] INFO  org.example.shoppingapp.ShoppingAppApplication - Starting ShoppingAppApplication using Java 17.0.10 with PID 11160 (C:\Users\Daria\Desktop\ShoppingApp\build\classes\java\main started by Daria in C:\Users\Daria\Desktop\ShoppingApp)
+2025-05-14 13:45:38.890 [main] DEBUG org.example.shoppingapp.ShoppingAppApplication - Running with Spring Boot v3.4.5, Spring v6.2.6
+2025-05-14 13:45:38.890 [main] INFO  org.example.shoppingapp.ShoppingAppApplication - No active profile set, falling back to 1 default profile: "default"
+2025-05-14 13:45:39.256 [main] INFO  org.example.shoppingapp.ShoppingAppApplication - Started ShoppingAppApplication in 0.632 seconds (process running for 1.134)
+2025-05-14 13:45:39.259 [main] INFO  org.example.shoppingapp.ShoppingAppApplication - Aplicația Price Comparator a pornit.
+2025-05-14 13:45:39.259 [main] DEBUG org.example.shoppingapp.ShoppingAppApplication - Se încearcă crearea produselor...
+2025-05-14 13:45:39.261 [main] INFO  org.example.shoppingapp.ShoppingAppApplication - Produs creat cu succes: Lapte Zuzu 1.5%
+2025-05-14 13:45:39.262 [main] INFO  org.example.shoppingapp.ShoppingAppApplication - Produs creat cu succes: Pâine albă feliată
+2025-05-14 13:45:39.262 [main] INFO  org.example.shoppingapp.ShoppingAppApplication - Produs (cu unitate posibil necunoscută) creat: Apă minerală izvor
+2025-05-14 13:45:39.262 [main] DEBUG org.example.shoppingapp.ShoppingAppApplication - Crearea produselor s-a încheiat.
+2025-05-14 13:45:39.263 [main] INFO  org.example.shoppingapp.ShoppingAppApplication - Au fost adăugate 3 intrări de preț.
+2025-05-14 13:45:39.269 [main] DEBUG org.example.shoppingapp.ShoppingAppApplication - Reducere adăugată pentru produsul: Lapte Zuzu 1.5%
+2025-05-14 13:45:39.269 [main] INFO  org.example.shoppingapp.ShoppingAppApplication - Reducerea pentru Lapte Zuzu 1.5% este activă astăzi!
+2025-05-14 13:45:39.269 [main] INFO  org.example.shoppingapp.ShoppingAppApplication - Aplicația Price Comparator și-a încheiat execuția (simulată).
