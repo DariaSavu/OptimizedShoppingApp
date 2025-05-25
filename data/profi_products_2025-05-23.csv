@@ -1,0 +1,6 @@
+product_id;product_name;product_category;brand;package_quantity;package_unit;price;currency
+P001;lapte zuzu;lactate;Zuzu;1.0;l;10.24;RON
+P003;iaurt grecesc;lactate;Olympus;0.4;kg;11.24;RON
+P006;ouă mărimea M;ouă;Ferma Veche;10.0;buc;13.2;RON
+P012;pâine albă;panificație;K-Classic;500.0;g;3.5;RON
+P015;roșii cherry;legume și fructe;K-Bio;250.0;g;7.17;RON

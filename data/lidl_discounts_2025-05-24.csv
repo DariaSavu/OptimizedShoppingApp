@@ -1,0 +1,4 @@
+product_id;product_name;brand;package_quantity;package_unit;product_category;from_date;to_date;percentage_of_discount
+P003;iaurt grecesc;Olympus;0.4;kg;lactate;2025-05-24;2025-05-30;10
+P012;pâine albă;K-Classic;500.0;g;panificație;2025-05-24;2025-05-30;5
+P006;ouă mărimea M;Ferma Veche;10.0;buc;ouă;2025-05-24;2025-05-30;8
