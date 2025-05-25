@@ -53,7 +53,7 @@ public class InMemoryDiscountRepository implements DiscountRepository {
 
     @Override
     public List<Discount> findAll() {
-        return new ArrayList<>(discounts); // Return a copy
+        return new ArrayList<>(discounts);
     }
 
     @Override

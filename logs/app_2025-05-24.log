@@ -1,0 +1,56 @@
+2025-05-24 22:29:07.302 [Test worker] WARN  o.e.s.repository.InMemoryDiscountRepository - Attempted to save a null Discount.
+2025-05-24 22:29:07.334 [Test worker] INFO  o.e.s.repository.InMemoryDiscountRepository - All discounts cleared.
+2025-05-24 22:29:07.412 [Test worker] WARN  o.e.s.repository.InMemoryPriceEntryRepository - Attempted to save a null PriceEntry.
+2025-05-24 22:29:07.431 [Test worker] INFO  o.e.s.repository.InMemoryPriceEntryRepository - All price entries cleared.
+2025-05-24 22:29:07.472 [Test worker] DEBUG o.e.s.repository.InMemoryProductRepository - Saved 2 products.
+2025-05-24 22:29:07.481 [Test worker] DEBUG o.e.s.repository.InMemoryProductRepository - Saved 3 products.
+2025-05-24 22:29:07.486 [Test worker] DEBUG o.e.s.repository.InMemoryProductRepository - Saved 0 products.
+2025-05-24 22:29:07.487 [Test worker] DEBUG o.e.s.repository.InMemoryProductRepository - Saved 0 products.
+2025-05-24 22:29:07.489 [Test worker] DEBUG o.e.s.repository.InMemoryProductRepository - Saved 3 products.
+2025-05-24 22:29:07.493 [Test worker] DEBUG o.e.s.repository.InMemoryProductRepository - Saved 2 products.
+2025-05-24 22:29:07.496 [Test worker] DEBUG o.e.s.repository.InMemoryProductRepository - Saved 3 products.
+2025-05-24 22:29:07.506 [Test worker] INFO  o.e.s.repository.InMemoryProductRepository - All products cleared from repository.
+2025-05-24 22:29:07.508 [Test worker] WARN  o.e.s.repository.InMemoryProductRepository - Attempted to save a null product or product with null ID.
+2025-05-24 22:29:07.508 [Test worker] WARN  o.e.s.repository.InMemoryProductRepository - Attempted to save a null product or product with null ID.
+2025-05-24 22:29:07.512 [Test worker] DEBUG o.e.s.repository.InMemoryProductRepository - Saved 3 products.
+2025-05-24 22:29:07.531 [Test worker] INFO  o.e.shoppingapp.repository.InMemoryUserRepository - All users cleared from repository.
+2025-05-24 22:32:12.751 [Test worker] INFO  o.e.shoppingapp.repository.InMemoryUserRepository - All users cleared from repository.
+2025-05-24 22:32:16.854 [Test worker] DEBUG o.e.s.repository.InMemoryProductRepository - Saved 2 products.
+2025-05-24 22:32:16.860 [Test worker] DEBUG o.e.s.repository.InMemoryProductRepository - Saved 3 products.
+2025-05-24 22:32:16.866 [Test worker] DEBUG o.e.s.repository.InMemoryProductRepository - Saved 0 products.
+2025-05-24 22:32:16.868 [Test worker] DEBUG o.e.s.repository.InMemoryProductRepository - Saved 0 products.
+2025-05-24 22:32:16.871 [Test worker] DEBUG o.e.s.repository.InMemoryProductRepository - Saved 3 products.
+2025-05-24 22:32:16.876 [Test worker] DEBUG o.e.s.repository.InMemoryProductRepository - Saved 2 products.
+2025-05-24 22:32:16.878 [Test worker] DEBUG o.e.s.repository.InMemoryProductRepository - Saved 3 products.
+2025-05-24 22:32:16.891 [Test worker] INFO  o.e.s.repository.InMemoryProductRepository - All products cleared from repository.
+2025-05-24 22:32:16.896 [Test worker] WARN  o.e.s.repository.InMemoryProductRepository - Attempted to save a null product or product with null ID.
+2025-05-24 22:32:16.897 [Test worker] WARN  o.e.s.repository.InMemoryProductRepository - Attempted to save a null product or product with null ID.
+2025-05-24 22:32:16.904 [Test worker] DEBUG o.e.s.repository.InMemoryProductRepository - Saved 3 products.
+2025-05-24 22:32:21.696 [Test worker] WARN  o.e.s.repository.InMemoryPriceEntryRepository - Attempted to save a null PriceEntry.
+2025-05-24 22:32:21.720 [Test worker] INFO  o.e.s.repository.InMemoryPriceEntryRepository - All price entries cleared.
+2025-05-24 22:32:27.551 [Test worker] WARN  o.e.s.repository.InMemoryDiscountRepository - Attempted to save a null Discount.
+2025-05-24 22:32:27.586 [Test worker] INFO  o.e.s.repository.InMemoryDiscountRepository - All discounts cleared.
+2025-05-24 22:35:07.194 [Test worker] WARN  o.e.s.repository.InMemoryDiscountRepository - Attempted to save a null Discount.
+2025-05-24 22:35:07.214 [Test worker] INFO  o.e.s.repository.InMemoryDiscountRepository - All discounts cleared.
+2025-05-24 22:36:15.352 [Test worker] WARN  o.e.s.repository.InMemoryDiscountRepository - Attempted to save a null Discount.
+2025-05-24 22:36:15.372 [Test worker] INFO  o.e.s.repository.InMemoryDiscountRepository - All discounts cleared.
+2025-05-24 22:39:57.090 [Test worker] WARN  o.e.s.repository.InMemoryDiscountRepository - Attempted to save a null Discount.
+2025-05-24 22:39:57.116 [Test worker] INFO  o.e.s.repository.InMemoryDiscountRepository - All discounts cleared.
+2025-05-24 22:41:37.868 [Test worker] WARN  o.e.s.repository.InMemoryDiscountRepository - Attempted to save a null Discount.
+2025-05-24 22:41:37.893 [Test worker] INFO  o.e.s.repository.InMemoryDiscountRepository - All discounts cleared.
+2025-05-24 22:41:45.802 [Test worker] WARN  o.e.s.repository.InMemoryDiscountRepository - Attempted to save a null Discount.
+2025-05-24 22:41:45.827 [Test worker] INFO  o.e.s.repository.InMemoryDiscountRepository - All discounts cleared.
+2025-05-24 22:41:45.880 [Test worker] WARN  o.e.s.repository.InMemoryPriceEntryRepository - Attempted to save a null PriceEntry.
+2025-05-24 22:41:45.894 [Test worker] INFO  o.e.s.repository.InMemoryPriceEntryRepository - All price entries cleared.
+2025-05-24 22:41:45.931 [Test worker] DEBUG o.e.s.repository.InMemoryProductRepository - Saved 2 products.
+2025-05-24 22:41:45.941 [Test worker] DEBUG o.e.s.repository.InMemoryProductRepository - Saved 3 products.
+2025-05-24 22:41:45.948 [Test worker] DEBUG o.e.s.repository.InMemoryProductRepository - Saved 0 products.
+2025-05-24 22:41:45.950 [Test worker] DEBUG o.e.s.repository.InMemoryProductRepository - Saved 0 products.
+2025-05-24 22:41:45.951 [Test worker] DEBUG o.e.s.repository.InMemoryProductRepository - Saved 3 products.
+2025-05-24 22:41:45.958 [Test worker] DEBUG o.e.s.repository.InMemoryProductRepository - Saved 2 products.
+2025-05-24 22:41:45.960 [Test worker] DEBUG o.e.s.repository.InMemoryProductRepository - Saved 3 products.
+2025-05-24 22:41:45.973 [Test worker] INFO  o.e.s.repository.InMemoryProductRepository - All products cleared from repository.
+2025-05-24 22:41:45.975 [Test worker] WARN  o.e.s.repository.InMemoryProductRepository - Attempted to save a null product or product with null ID.
+2025-05-24 22:41:45.977 [Test worker] WARN  o.e.s.repository.InMemoryProductRepository - Attempted to save a null product or product with null ID.
+2025-05-24 22:41:45.984 [Test worker] DEBUG o.e.s.repository.InMemoryProductRepository - Saved 3 products.
+2025-05-24 22:41:46.005 [Test worker] INFO  o.e.shoppingapp.repository.InMemoryUserRepository - All users cleared from repository.

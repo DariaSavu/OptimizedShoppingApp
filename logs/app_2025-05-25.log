@@ -1,0 +1,1342 @@
+2025-05-25 20:26:50.440 [main] INFO  org.example.shoppingapp.ShoppingAppApplication - Starting ShoppingAppApplication using Java 17.0.10 with PID 6036 (C:\Users\Daria\Desktop\ShoppingApp\build\classes\java\main started by Daria in C:\Users\Daria\Desktop\ShoppingApp)
+2025-05-25 20:26:50.444 [main] DEBUG org.example.shoppingapp.ShoppingAppApplication - Running with Spring Boot v3.4.5, Spring v6.2.6
+2025-05-25 20:26:50.444 [main] INFO  org.example.shoppingapp.ShoppingAppApplication - No active profile set, falling back to 1 default profile: "default"
+2025-05-25 20:26:51.023 [main] INFO  o.example.shoppingapp.service.DataLoadingService - Starting initial data load from directory: ./data
+2025-05-25 20:26:51.025 [main] ERROR o.example.shoppingapp.service.DataLoadingService - Data directory not found or is not a directory: ./data
+2025-05-25 20:26:51.168 [main] INFO  org.example.shoppingapp.ShoppingAppApplication - Started ShoppingAppApplication in 1.212 seconds (process running for 2.193)
+2025-05-25 20:26:51.173 [main] INFO  org.example.shoppingapp.CliApplicationRunner - CLI Application Runner started. Type 'help' for commands.
+2025-05-25 20:28:09.199 [main] INFO  org.example.shoppingapp.ShoppingAppApplication - Starting ShoppingAppApplication using Java 17.0.10 with PID 2140 (C:\Users\Daria\Desktop\ShoppingApp\build\classes\java\main started by Daria in C:\Users\Daria\Desktop\ShoppingApp)
+2025-05-25 20:28:09.200 [main] DEBUG org.example.shoppingapp.ShoppingAppApplication - Running with Spring Boot v3.4.5, Spring v6.2.6
+2025-05-25 20:28:09.201 [main] INFO  org.example.shoppingapp.ShoppingAppApplication - No active profile set, falling back to 1 default profile: "default"
+2025-05-25 20:28:09.561 [main] INFO  o.example.shoppingapp.service.DataLoadingService - Starting initial data load from directory: org/example/shoppingapp/data
+2025-05-25 20:28:09.562 [main] ERROR o.example.shoppingapp.service.DataLoadingService - Data directory not found or is not a directory: org/example/shoppingapp/data
+2025-05-25 20:28:09.635 [main] INFO  org.example.shoppingapp.ShoppingAppApplication - Started ShoppingAppApplication in 0.704 seconds (process running for 1.239)
+2025-05-25 20:28:09.637 [main] INFO  org.example.shoppingapp.CliApplicationRunner - CLI Application Runner started. Type 'help' for commands.
+2025-05-25 20:32:45.493 [main] INFO  org.example.shoppingapp.ShoppingAppApplication - Starting ShoppingAppApplication using Java 17.0.10 with PID 30828 (C:\Users\Daria\Desktop\ShoppingApp\build\classes\java\main started by Daria in C:\Users\Daria\Desktop\ShoppingApp)
+2025-05-25 20:32:45.494 [main] DEBUG org.example.shoppingapp.ShoppingAppApplication - Running with Spring Boot v3.4.5, Spring v6.2.6
+2025-05-25 20:32:45.495 [main] INFO  org.example.shoppingapp.ShoppingAppApplication - No active profile set, falling back to 1 default profile: "default"
+2025-05-25 20:32:45.774 [main] INFO  o.example.shoppingapp.service.DataLoadingService - Starting initial data load from directory: ./data
+2025-05-25 20:32:45.776 [main] INFO  o.example.shoppingapp.service.DataLoadingService - Processing file:  kaufland_2025-05-01.csv
+2025-05-25 20:32:45.776 [main] WARN  org.example.shoppingapp.utils.CsvDataParser - Skipping file with unrecognized name format:  kaufland_2025-05-01.csv
+2025-05-25 20:32:45.776 [main] INFO  o.example.shoppingapp.service.DataLoadingService - Processing file:  lidl_discounts_2025-05-01.csv
+2025-05-25 20:32:45.776 [main] INFO  org.example.shoppingapp.utils.CsvDataParser - Parsing discount file:  lidl_discounts_2025-05-01.csv
+2025-05-25 20:32:45.777 [main] WARN  org.example.shoppingapp.utils.CsvDataParser - Skipping malformed line 2 in  lidl_discounts_2025-05-01.csv: Insufficient fields. Line:  _date;to_date;percentage_of_discount
+2025-05-25 20:32:45.778 [main] WARN  org.example.shoppingapp.utils.CsvDataParser - Product with ID P001 created from discount file  lidl_discounts_2025-05-01.csv data.
+2025-05-25 20:32:45.780 [main] WARN  org.example.shoppingapp.utils.CsvDataParser - Product with ID P008 created from discount file  lidl_discounts_2025-05-01.csv data.
+2025-05-25 20:32:45.780 [main] WARN  org.example.shoppingapp.utils.CsvDataParser - Product with ID P020 created from discount file  lidl_discounts_2025-05-01.csv data.
+2025-05-25 20:32:45.780 [main] WARN  org.example.shoppingapp.utils.CsvDataParser - Product with ID P034 created from discount file  lidl_discounts_2025-05-01.csv data.
+2025-05-25 20:32:45.780 [main] WARN  org.example.shoppingapp.utils.CsvDataParser - Product with ID P011 created from discount file  lidl_discounts_2025-05-01.csv data.
+2025-05-25 20:32:45.780 [main] WARN  org.example.shoppingapp.utils.CsvDataParser - Product with ID P014 created from discount file  lidl_discounts_2025-05-01.csv data.
+2025-05-25 20:32:45.780 [main] WARN  org.example.shoppingapp.utils.CsvDataParser - Product with ID P037 created from discount file  lidl_discounts_2025-05-01.csv data.
+2025-05-25 20:32:45.781 [main] WARN  org.example.shoppingapp.utils.CsvDataParser - Skipping malformed line 10 in  lidl_discounts_2025-05-01.csv: Insufficient fields. Line: P040;șampon păr gras;Head & Shoulders;400;ml;îngrijire personală;2025-05-05;2025-05
+2025-05-25 20:32:45.781 [main] WARN  org.example.shoppingapp.utils.CsvDataParser - Skipping malformed line 11 in  lidl_discounts_2025-05-01.csv: Insufficient fields. Line: 11;15
+2025-05-25 20:32:45.781 [main] WARN  org.example.shoppingapp.utils.CsvDataParser - Product with ID P049 created from discount file  lidl_discounts_2025-05-01.csv data.
+2025-05-25 20:32:45.782 [main] WARN  org.example.shoppingapp.utils.CsvDataParser - Product with ID P052 created from discount file  lidl_discounts_2025-05-01.csv data.
+2025-05-25 20:32:45.782 [main] WARN  org.example.shoppingapp.utils.CsvDataParser - Product with ID P024 created from discount file  lidl_discounts_2025-05-01.csv data.
+2025-05-25 20:32:45.782 [main] WARN  org.example.shoppingapp.utils.CsvDataParser - Product with ID P005 created from discount file  lidl_discounts_2025-05-01.csv data.
+2025-05-25 20:32:45.782 [main] WARN  org.example.shoppingapp.utils.CsvDataParser - Product with ID P017 created from discount file  lidl_discounts_2025-05-01.csv data.
+2025-05-25 20:32:45.782 [main] WARN  org.example.shoppingapp.utils.CsvDataParser - Product with ID P028 created from discount file  lidl_discounts_2025-05-01.csv data.
+2025-05-25 20:32:45.783 [main] WARN  org.example.shoppingapp.utils.CsvDataParser - Product with ID P046 created from discount file  lidl_discounts_2025-05-01.csv data.
+2025-05-25 20:32:45.783 [main] WARN  org.example.shoppingapp.utils.CsvDataParser - Product with ID P031 created from discount file  lidl_discounts_2025-05-01.csv data.
+2025-05-25 20:32:45.783 [main] WARN  org.example.shoppingapp.utils.CsvDataParser - Skipping malformed line 20 in  lidl_discounts_2025-05-01.csv: Insufficient fields. Line: P043;hârtie igienică 3 straturi;Zewa;10;role;produse de menaj;2025-05-03;2025-05
+2025-05-25 20:32:45.783 [main] WARN  org.example.shoppingapp.utils.CsvDataParser - Skipping malformed line 21 in  lidl_discounts_2025-05-01.csv: Insufficient fields. Line: 09;14
+2025-05-25 20:32:45.783 [main] WARN  org.example.shoppingapp.utils.CsvDataParser - Product with ID P026 created from discount file  lidl_discounts_2025-05-01.csv data.
+2025-05-25 20:32:45.783 [main] WARN  org.example.shoppingapp.utils.CsvDataParser - Product with ID P002 created from discount file  lidl_discounts_2025-05-01.csv data.
+2025-05-25 20:32:45.784 [main] WARN  org.example.shoppingapp.utils.CsvDataParser - Product with ID P014 created from discount file  lidl_discounts_2025-05-01.csv data.
+2025-05-25 20:32:45.784 [main] INFO  org.example.shoppingapp.utils.CsvDataParser - Parsed 18 discounts from  lidl_discounts_2025-05-01.csv
+2025-05-25 20:32:45.784 [main] DEBUG o.e.s.repository.InMemoryProductRepository - Saved 18 products.
+2025-05-25 20:32:45.784 [main] DEBUG o.example.shoppingapp.service.DataLoadingService - Saved 18 new/updated products from  lidl_discounts_2025-05-01.csv
+2025-05-25 20:32:45.784 [main] DEBUG o.example.shoppingapp.service.DataLoadingService - Saved 18 discounts from  lidl_discounts_2025-05-01.csv
+2025-05-25 20:32:45.784 [main] INFO  o.example.shoppingapp.service.DataLoadingService - Processing file: kaufland_2025-05-08.csv
+2025-05-25 20:32:45.785 [main] INFO  org.example.shoppingapp.utils.CsvDataParser - Parsing price file: kaufland_2025-05-08.csv
+2025-05-25 20:32:45.785 [main] WARN  org.example.shoppingapp.utils.CsvDataParser - Skipping malformed line 2 in kaufland_2025-05-08.csv: Insufficient fields. Line:  currency
+2025-05-25 20:32:45.787 [main] WARN  org.example.shoppingapp.model.Product - Normalization skipped for product P044 due to null packageUnitInput.
+2025-05-25 20:32:45.789 [main] INFO  org.example.shoppingapp.utils.CsvDataParser - Parsed 25 price entries from kaufland_2025-05-08.csv
+2025-05-25 20:32:45.790 [main] DEBUG o.e.s.repository.InMemoryProductRepository - Saved 23 products.
+2025-05-25 20:32:45.790 [main] DEBUG o.example.shoppingapp.service.DataLoadingService - Saved 23 new/updated products from kaufland_2025-05-08.csv
+2025-05-25 20:32:45.790 [main] DEBUG o.example.shoppingapp.service.DataLoadingService - Saved 25 price entries from kaufland_2025-05-08.csv
+2025-05-25 20:32:45.790 [main] INFO  o.example.shoppingapp.service.DataLoadingService - Processing file: kaufland_discounts_2025-05-01.csv
+2025-05-25 20:32:45.790 [main] INFO  org.example.shoppingapp.utils.CsvDataParser - Parsing discount file: kaufland_discounts_2025-05-01.csv
+2025-05-25 20:32:45.791 [main] WARN  org.example.shoppingapp.utils.CsvDataParser - Skipping malformed line 2 in kaufland_discounts_2025-05-01.csv: Insufficient fields. Line:  _date;to_date;percentage_of_discount
+2025-05-25 20:32:45.792 [main] WARN  org.example.shoppingapp.utils.CsvDataParser - Product with ID P060 created from discount file kaufland_discounts_2025-05-01.csv data.
+2025-05-25 20:32:45.792 [main] WARN  org.example.shoppingapp.utils.CsvDataParser - Product with ID P062 created from discount file kaufland_discounts_2025-05-01.csv data.
+2025-05-25 20:32:45.792 [main] INFO  org.example.shoppingapp.utils.CsvDataParser - Parsed 12 discounts from kaufland_discounts_2025-05-01.csv
+2025-05-25 20:32:45.792 [main] DEBUG o.e.s.repository.InMemoryProductRepository - Saved 2 products.
+2025-05-25 20:32:45.792 [main] DEBUG o.example.shoppingapp.service.DataLoadingService - Saved 2 new/updated products from kaufland_discounts_2025-05-01.csv
+2025-05-25 20:32:45.792 [main] DEBUG o.example.shoppingapp.service.DataLoadingService - Saved 12 discounts from kaufland_discounts_2025-05-01.csv
+2025-05-25 20:32:45.792 [main] INFO  o.example.shoppingapp.service.DataLoadingService - Processing file: kaufland_discounts_2025-05-08.csv
+2025-05-25 20:32:45.792 [main] INFO  org.example.shoppingapp.utils.CsvDataParser - Parsing discount file: kaufland_discounts_2025-05-08.csv
+2025-05-25 20:32:45.793 [main] WARN  org.example.shoppingapp.utils.CsvDataParser - Skipping malformed line 2 in kaufland_discounts_2025-05-08.csv: Insufficient fields. Line:  _date;to_date;percentage_of_discount
+2025-05-25 20:32:45.793 [main] WARN  org.example.shoppingapp.utils.CsvDataParser - Skipping malformed line 10 in kaufland_discounts_2025-05-08.csv: Insufficient fields. Line: P044;hârtie igienică 3 straturi;Pufina;10;role;produse de menaj;2025-05-08;2025-05
+2025-05-25 20:32:45.793 [main] WARN  org.example.shoppingapp.utils.CsvDataParser - Skipping malformed line 11 in kaufland_discounts_2025-05-08.csv: Insufficient fields. Line: 14;13
+2025-05-25 20:32:45.794 [main] INFO  org.example.shoppingapp.utils.CsvDataParser - Parsed 11 discounts from kaufland_discounts_2025-05-08.csv
+2025-05-25 20:32:45.794 [main] DEBUG o.example.shoppingapp.service.DataLoadingService - Saved 11 discounts from kaufland_discounts_2025-05-08.csv
+2025-05-25 20:32:45.794 [main] INFO  o.example.shoppingapp.service.DataLoadingService - Processing file: lidl_2025-05-01.csv
+2025-05-25 20:32:45.794 [main] INFO  org.example.shoppingapp.utils.CsvDataParser - Parsing price file: lidl_2025-05-01.csv
+2025-05-25 20:32:45.795 [main] WARN  org.example.shoppingapp.utils.CsvDataParser - Skipping malformed line 2 in lidl_2025-05-01.csv: Insufficient fields. Line:  currency
+2025-05-25 20:32:45.795 [main] WARN  org.example.shoppingapp.model.Product - Normalization skipped for product P043 due to null packageUnitInput.
+2025-05-25 20:32:45.795 [main] INFO  org.example.shoppingapp.utils.CsvDataParser - Parsed 20 price entries from lidl_2025-05-01.csv
+2025-05-25 20:32:45.796 [main] DEBUG o.e.s.repository.InMemoryProductRepository - Saved 3 products.
+2025-05-25 20:32:45.796 [main] DEBUG o.example.shoppingapp.service.DataLoadingService - Saved 3 new/updated products from lidl_2025-05-01.csv
+2025-05-25 20:32:45.796 [main] DEBUG o.example.shoppingapp.service.DataLoadingService - Saved 20 price entries from lidl_2025-05-01.csv
+2025-05-25 20:32:45.796 [main] INFO  o.example.shoppingapp.service.DataLoadingService - Processing file: lidl_2025-05-08.csv
+2025-05-25 20:32:45.796 [main] INFO  org.example.shoppingapp.utils.CsvDataParser - Parsing price file: lidl_2025-05-08.csv
+2025-05-25 20:32:45.796 [main] WARN  org.example.shoppingapp.utils.CsvDataParser - Skipping malformed line 2 in lidl_2025-05-08.csv: Insufficient fields. Line:  currency
+2025-05-25 20:32:45.797 [main] INFO  org.example.shoppingapp.utils.CsvDataParser - Parsed 25 price entries from lidl_2025-05-08.csv
+2025-05-25 20:32:45.797 [main] DEBUG o.e.s.repository.InMemoryProductRepository - Saved 5 products.
+2025-05-25 20:32:45.797 [main] DEBUG o.example.shoppingapp.service.DataLoadingService - Saved 5 new/updated products from lidl_2025-05-08.csv
+2025-05-25 20:32:45.797 [main] DEBUG o.example.shoppingapp.service.DataLoadingService - Saved 25 price entries from lidl_2025-05-08.csv
+2025-05-25 20:32:45.797 [main] INFO  o.example.shoppingapp.service.DataLoadingService - Processing file: lidl_discounts_2025-05-08.csv
+2025-05-25 20:32:45.797 [main] INFO  org.example.shoppingapp.utils.CsvDataParser - Parsing discount file: lidl_discounts_2025-05-08.csv
+2025-05-25 20:32:45.797 [main] WARN  org.example.shoppingapp.utils.CsvDataParser - Skipping malformed line 2 in lidl_discounts_2025-05-08.csv: Insufficient fields. Line:  _date;to_date;percentage_of_discount
+2025-05-25 20:32:45.797 [main] WARN  org.example.shoppingapp.utils.CsvDataParser - Skipping malformed line 9 in lidl_discounts_2025-05-08.csv: Insufficient fields. Line: P040;șampon păr gras;Head & Shoulders;400;ml;îngrijire personală;2025-05-10;2025-05
+2025-05-25 20:32:45.797 [main] WARN  org.example.shoppingapp.utils.CsvDataParser - Skipping malformed line 10 in lidl_discounts_2025-05-08.csv: Insufficient fields. Line: 16;18
+2025-05-25 20:32:45.797 [main] WARN  org.example.shoppingapp.utils.CsvDataParser - Skipping malformed line 11 in lidl_discounts_2025-05-08.csv: Insufficient fields. Line: P043;hârtie igienică 3 straturi;Zewa;10;role;produse de menaj;2025-05-08;2025-05
+2025-05-25 20:32:45.797 [main] WARN  org.example.shoppingapp.utils.CsvDataParser - Skipping malformed line 12 in lidl_discounts_2025-05-08.csv: Insufficient fields. Line: 14;10
+2025-05-25 20:32:45.798 [main] INFO  org.example.shoppingapp.utils.CsvDataParser - Parsed 11 discounts from lidl_discounts_2025-05-08.csv
+2025-05-25 20:32:45.798 [main] DEBUG o.example.shoppingapp.service.DataLoadingService - Saved 11 discounts from lidl_discounts_2025-05-08.csv
+2025-05-25 20:32:45.798 [main] INFO  o.example.shoppingapp.service.DataLoadingService - Processing file: profi_2025-05-01.csv
+2025-05-25 20:32:45.798 [main] INFO  org.example.shoppingapp.utils.CsvDataParser - Parsing price file: profi_2025-05-01.csv
+2025-05-25 20:32:45.799 [main] WARN  org.example.shoppingapp.utils.CsvDataParser - Skipping malformed line 2 in profi_2025-05-01.csv: Insufficient fields. Line:  currency
+2025-05-25 20:32:45.800 [main] INFO  org.example.shoppingapp.utils.CsvDataParser - Parsed 20 price entries from profi_2025-05-01.csv
+2025-05-25 20:32:45.800 [main] DEBUG o.example.shoppingapp.service.DataLoadingService - Saved 20 price entries from profi_2025-05-01.csv
+2025-05-25 20:32:45.800 [main] INFO  o.example.shoppingapp.service.DataLoadingService - Processing file: profi_2025-05-08.csv
+2025-05-25 20:32:45.800 [main] INFO  org.example.shoppingapp.utils.CsvDataParser - Parsing price file: profi_2025-05-08.csv
+2025-05-25 20:32:45.801 [main] WARN  org.example.shoppingapp.utils.CsvDataParser - Skipping malformed line 2 in profi_2025-05-08.csv: Insufficient fields. Line:  currency
+2025-05-25 20:32:45.801 [main] WARN  org.example.shoppingapp.model.Product - Normalization skipped for product P045 due to null packageUnitInput.
+2025-05-25 20:32:45.801 [main] INFO  org.example.shoppingapp.utils.CsvDataParser - Parsed 25 price entries from profi_2025-05-08.csv
+2025-05-25 20:32:45.801 [main] DEBUG o.e.s.repository.InMemoryProductRepository - Saved 20 products.
+2025-05-25 20:32:45.801 [main] DEBUG o.example.shoppingapp.service.DataLoadingService - Saved 20 new/updated products from profi_2025-05-08.csv
+2025-05-25 20:32:45.802 [main] DEBUG o.example.shoppingapp.service.DataLoadingService - Saved 25 price entries from profi_2025-05-08.csv
+2025-05-25 20:32:45.802 [main] INFO  o.example.shoppingapp.service.DataLoadingService - Processing file: profi_discounts_2025-05-01.csv
+2025-05-25 20:32:45.802 [main] INFO  org.example.shoppingapp.utils.CsvDataParser - Parsing discount file: profi_discounts_2025-05-01.csv
+2025-05-25 20:32:45.803 [main] WARN  org.example.shoppingapp.utils.CsvDataParser - Skipping malformed line 2 in profi_discounts_2025-05-01.csv: Insufficient fields. Line:  _date;to_date;percentage_of_discount
+2025-05-25 20:32:45.804 [main] INFO  org.example.shoppingapp.utils.CsvDataParser - Parsed 10 discounts from profi_discounts_2025-05-01.csv
+2025-05-25 20:32:45.804 [main] DEBUG o.example.shoppingapp.service.DataLoadingService - Saved 10 discounts from profi_discounts_2025-05-01.csv
+2025-05-25 20:32:45.804 [main] INFO  o.example.shoppingapp.service.DataLoadingService - Processing file: profi_discounts_2025-05-08.csv
+2025-05-25 20:32:45.804 [main] INFO  org.example.shoppingapp.utils.CsvDataParser - Parsing discount file: profi_discounts_2025-05-08.csv
+2025-05-25 20:32:45.805 [main] WARN  org.example.shoppingapp.utils.CsvDataParser - Skipping malformed line 2 in profi_discounts_2025-05-08.csv: Insufficient fields. Line:  _date;to_date;percentage_of_discount
+2025-05-25 20:32:45.805 [main] WARN  org.example.shoppingapp.utils.CsvDataParser - Skipping malformed line 9 in profi_discounts_2025-05-08.csv: Insufficient fields. Line: P045;hârtie igienică 3 straturi;Motto;10;role;produse de menaj;2025-05-10;2025-05
+2025-05-25 20:32:45.805 [main] WARN  org.example.shoppingapp.utils.CsvDataParser - Skipping malformed line 10 in profi_discounts_2025-05-08.csv: Insufficient fields. Line: 16;12
+2025-05-25 20:32:45.805 [main] INFO  org.example.shoppingapp.utils.CsvDataParser - Parsed 12 discounts from profi_discounts_2025-05-08.csv
+2025-05-25 20:32:45.805 [main] DEBUG o.example.shoppingapp.service.DataLoadingService - Saved 12 discounts from profi_discounts_2025-05-08.csv
+2025-05-25 20:32:45.805 [main] INFO  o.example.shoppingapp.service.DataLoadingService - Processing file: users.csv
+2025-05-25 20:32:45.805 [main] WARN  org.example.shoppingapp.utils.CsvDataParser - Skipping file with unrecognized name format: users.csv
+2025-05-25 20:32:45.806 [main] INFO  o.example.shoppingapp.service.DataLoadingService - Loading users from users.csv...
+2025-05-25 20:32:45.806 [main] INFO  org.example.shoppingapp.utils.CsvDataParser - Parsing users file: users.csv
+2025-05-25 20:32:45.807 [main] INFO  org.example.shoppingapp.utils.CsvDataParser - Parsed 5 users from users.csv
+2025-05-25 20:32:45.808 [main] DEBUG o.example.shoppingapp.service.DataLoadingService - Saved user from CSV: ID=1, Username=daria.s, Name=Daria Savu
+2025-05-25 20:32:45.808 [main] DEBUG o.example.shoppingapp.service.DataLoadingService - Saved user from CSV: ID=2, Username=john.d, Name=John Doe
+2025-05-25 20:32:45.808 [main] DEBUG o.example.shoppingapp.service.DataLoadingService - Saved user from CSV: ID=3, Username=alice.w, Name=Alice Wonderland
+2025-05-25 20:32:45.808 [main] DEBUG o.example.shoppingapp.service.DataLoadingService - Saved user from CSV: ID=4, Username=test_user, Name=Test Userescu
+2025-05-25 20:32:45.808 [main] DEBUG o.example.shoppingapp.service.DataLoadingService - Saved user from CSV: ID=100, Username=another.user, Name=Another Person
+2025-05-25 20:32:45.808 [main] INFO  o.example.shoppingapp.service.DataLoadingService - 5 new users loaded from users.csv. Total users in repository: 5
+2025-05-25 20:32:45.809 [main] INFO  o.example.shoppingapp.service.DataLoadingService - Initial data load finished.
+2025-05-25 20:32:45.809 [main] INFO  o.example.shoppingapp.service.DataLoadingService - Total products loaded: 70
+2025-05-25 20:32:45.809 [main] INFO  o.example.shoppingapp.service.DataLoadingService - Total price entries loaded: 115
+2025-05-25 20:32:45.809 [main] INFO  o.example.shoppingapp.service.DataLoadingService - Total discounts loaded: 74
+2025-05-25 20:32:45.809 [main] INFO  o.example.shoppingapp.service.DataLoadingService - Total users loaded: 5
+2025-05-25 20:32:45.887 [main] INFO  org.example.shoppingapp.ShoppingAppApplication - Started ShoppingAppApplication in 0.627 seconds (process running for 1.146)
+2025-05-25 20:32:45.889 [main] INFO  org.example.shoppingapp.CliApplicationRunner - CLI Application Runner started. Type 'help' for commands.
+2025-05-25 20:36:29.374 [main] DEBUG org.example.shoppingapp.service.DiscountService - Fetching best current discounts for date: 2025-05-25, limit: 20
+2025-05-25 20:36:29.374 [main] INFO  org.example.shoppingapp.service.DiscountService - No active discounts found for today.
+2025-05-25 20:40:01.511 [main] INFO  org.example.shoppingapp.ShoppingAppApplication - Starting ShoppingAppApplication using Java 17.0.10 with PID 19200 (C:\Users\Daria\Desktop\ShoppingApp\build\classes\java\main started by Daria in C:\Users\Daria\Desktop\ShoppingApp)
+2025-05-25 20:40:01.513 [main] DEBUG org.example.shoppingapp.ShoppingAppApplication - Running with Spring Boot v3.4.5, Spring v6.2.6
+2025-05-25 20:40:01.513 [main] INFO  org.example.shoppingapp.ShoppingAppApplication - No active profile set, falling back to 1 default profile: "default"
+2025-05-25 20:40:02.022 [main] INFO  o.example.shoppingapp.service.DataLoadingService - Starting initial data load from directory: ./data
+2025-05-25 20:40:02.025 [main] INFO  o.example.shoppingapp.service.DataLoadingService - Processing file: kaufland_2025-05-01.csv
+2025-05-25 20:40:02.025 [main] INFO  org.example.shoppingapp.utils.CsvDataParser - Parsing price file: kaufland_2025-05-01.csv
+2025-05-25 20:40:02.028 [main] WARN  org.example.shoppingapp.utils.CsvDataParser - Skipping malformed line 2 in kaufland_2025-05-01.csv: Insufficient fields. Line:  currency
+2025-05-25 20:40:02.031 [main] WARN  org.example.shoppingapp.model.Product - Normalization skipped for product P044 due to null packageUnitInput.
+2025-05-25 20:40:02.031 [main] INFO  org.example.shoppingapp.utils.CsvDataParser - Parsed 25 price entries from kaufland_2025-05-01.csv
+2025-05-25 20:40:02.031 [main] DEBUG o.e.s.repository.InMemoryProductRepository - Saved 25 products.
+2025-05-25 20:40:02.032 [main] DEBUG o.example.shoppingapp.service.DataLoadingService - Saved 25 new/updated products from kaufland_2025-05-01.csv
+2025-05-25 20:40:02.032 [main] DEBUG o.example.shoppingapp.service.DataLoadingService - Saved 25 price entries from kaufland_2025-05-01.csv
+2025-05-25 20:40:02.032 [main] INFO  o.example.shoppingapp.service.DataLoadingService - Processing file: kaufland_2025-05-25.csv
+2025-05-25 20:40:02.032 [main] INFO  org.example.shoppingapp.utils.CsvDataParser - Parsing price file: kaufland_2025-05-25.csv
+2025-05-25 20:40:02.032 [main] WARN  org.example.shoppingapp.utils.CsvDataParser - Skipping malformed line 2 in kaufland_2025-05-25.csv: Insufficient fields. Line:  currency
+2025-05-25 20:40:02.033 [main] INFO  org.example.shoppingapp.utils.CsvDataParser - Parsed 25 price entries from kaufland_2025-05-25.csv
+2025-05-25 20:40:02.034 [main] DEBUG o.e.s.repository.InMemoryProductRepository - Saved 2 products.
+2025-05-25 20:40:02.034 [main] DEBUG o.example.shoppingapp.service.DataLoadingService - Saved 2 new/updated products from kaufland_2025-05-25.csv
+2025-05-25 20:40:02.034 [main] DEBUG o.example.shoppingapp.service.DataLoadingService - Saved 25 price entries from kaufland_2025-05-25.csv
+2025-05-25 20:40:02.034 [main] INFO  o.example.shoppingapp.service.DataLoadingService - Processing file: kaufland_discounts_2025-05-08.csv
+2025-05-25 20:40:02.034 [main] INFO  org.example.shoppingapp.utils.CsvDataParser - Parsing discount file: kaufland_discounts_2025-05-08.csv
+2025-05-25 20:40:02.036 [main] INFO  org.example.shoppingapp.utils.CsvDataParser - Parsed 12 discounts from kaufland_discounts_2025-05-08.csv
+2025-05-25 20:40:02.036 [main] DEBUG o.example.shoppingapp.service.DataLoadingService - Saved 12 discounts from kaufland_discounts_2025-05-08.csv
+2025-05-25 20:40:02.036 [main] INFO  o.example.shoppingapp.service.DataLoadingService - Processing file: kaufland_discounts_2025-05-25.csv
+2025-05-25 20:40:02.036 [main] INFO  org.example.shoppingapp.utils.CsvDataParser - Parsing discount file: kaufland_discounts_2025-05-25.csv
+2025-05-25 20:40:02.037 [main] INFO  org.example.shoppingapp.utils.CsvDataParser - Parsed 12 discounts from kaufland_discounts_2025-05-25.csv
+2025-05-25 20:40:02.038 [main] DEBUG o.example.shoppingapp.service.DataLoadingService - Saved 12 discounts from kaufland_discounts_2025-05-25.csv
+2025-05-25 20:40:02.038 [main] INFO  o.example.shoppingapp.service.DataLoadingService - Processing file: lidl_2025-05-01.csv
+2025-05-25 20:40:02.038 [main] INFO  org.example.shoppingapp.utils.CsvDataParser - Parsing price file: lidl_2025-05-01.csv
+2025-05-25 20:40:02.038 [main] WARN  org.example.shoppingapp.utils.CsvDataParser - Skipping malformed line 2 in lidl_2025-05-01.csv: Insufficient fields. Line:  currency
+2025-05-25 20:40:02.039 [main] WARN  org.example.shoppingapp.model.Product - Normalization skipped for product P043 due to null packageUnitInput.
+2025-05-25 20:40:02.039 [main] INFO  org.example.shoppingapp.utils.CsvDataParser - Parsed 20 price entries from lidl_2025-05-01.csv
+2025-05-25 20:40:02.040 [main] DEBUG o.e.s.repository.InMemoryProductRepository - Saved 18 products.
+2025-05-25 20:40:02.040 [main] DEBUG o.example.shoppingapp.service.DataLoadingService - Saved 18 new/updated products from lidl_2025-05-01.csv
+2025-05-25 20:40:02.040 [main] DEBUG o.example.shoppingapp.service.DataLoadingService - Saved 20 price entries from lidl_2025-05-01.csv
+2025-05-25 20:40:02.040 [main] INFO  o.example.shoppingapp.service.DataLoadingService - Processing file: lidl_2025-05-25.csv
+2025-05-25 20:40:02.040 [main] INFO  org.example.shoppingapp.utils.CsvDataParser - Parsing price file: lidl_2025-05-25.csv
+2025-05-25 20:40:02.041 [main] WARN  org.example.shoppingapp.utils.CsvDataParser - Skipping malformed line 2 in lidl_2025-05-25.csv: Insufficient fields. Line:  currency
+2025-05-25 20:40:02.041 [main] INFO  org.example.shoppingapp.utils.CsvDataParser - Parsed 25 price entries from lidl_2025-05-25.csv
+2025-05-25 20:40:02.041 [main] DEBUG o.e.s.repository.InMemoryProductRepository - Saved 5 products.
+2025-05-25 20:40:02.041 [main] DEBUG o.example.shoppingapp.service.DataLoadingService - Saved 5 new/updated products from lidl_2025-05-25.csv
+2025-05-25 20:40:02.041 [main] DEBUG o.example.shoppingapp.service.DataLoadingService - Saved 25 price entries from lidl_2025-05-25.csv
+2025-05-25 20:40:02.042 [main] INFO  o.example.shoppingapp.service.DataLoadingService - Processing file: lidl_discounts_2025-05-08.csv
+2025-05-25 20:40:02.042 [main] INFO  org.example.shoppingapp.utils.CsvDataParser - Parsing discount file: lidl_discounts_2025-05-08.csv
+2025-05-25 20:40:02.042 [main] WARN  org.example.shoppingapp.utils.CsvDataParser - Skipping malformed line 2 in lidl_discounts_2025-05-08.csv: Insufficient fields. Line:  _date;to_date;percentage_of_discount
+2025-05-25 20:40:02.043 [main] WARN  org.example.shoppingapp.utils.CsvDataParser - Skipping malformed line 9 in lidl_discounts_2025-05-08.csv: Insufficient fields. Line: P040;șampon păr gras;Head & Shoulders;400;ml;îngrijire personală;2025-05-10;2025-05
+2025-05-25 20:40:02.043 [main] WARN  org.example.shoppingapp.utils.CsvDataParser - Skipping malformed line 10 in lidl_discounts_2025-05-08.csv: Insufficient fields. Line: 16;18
+2025-05-25 20:40:02.043 [main] WARN  org.example.shoppingapp.utils.CsvDataParser - Skipping malformed line 11 in lidl_discounts_2025-05-08.csv: Insufficient fields. Line: P043;hârtie igienică 3 straturi;Zewa;10;role;produse de menaj;2025-05-08;2025-05
+2025-05-25 20:40:02.043 [main] WARN  org.example.shoppingapp.utils.CsvDataParser - Skipping malformed line 12 in lidl_discounts_2025-05-08.csv: Insufficient fields. Line: 14;10
+2025-05-25 20:40:02.044 [main] INFO  org.example.shoppingapp.utils.CsvDataParser - Parsed 11 discounts from lidl_discounts_2025-05-08.csv
+2025-05-25 20:40:02.044 [main] DEBUG o.example.shoppingapp.service.DataLoadingService - Saved 11 discounts from lidl_discounts_2025-05-08.csv
+2025-05-25 20:40:02.044 [main] INFO  o.example.shoppingapp.service.DataLoadingService - Processing file: lidl_discounts_2025-05-25.csv
+2025-05-25 20:40:02.045 [main] INFO  org.example.shoppingapp.utils.CsvDataParser - Parsing discount file: lidl_discounts_2025-05-25.csv
+2025-05-25 20:40:02.046 [main] WARN  org.example.shoppingapp.utils.CsvDataParser - Skipping malformed line 2 in lidl_discounts_2025-05-25.csv: Insufficient fields. Line:  _date;to_date;percentage_of_discount
+2025-05-25 20:40:02.046 [main] WARN  org.example.shoppingapp.utils.CsvDataParser - Skipping malformed line 10 in lidl_discounts_2025-05-25.csv: Insufficient fields. Line: P040;șampon păr gras;Head & Shoulders;400;ml;îngrijire personală;2025-05-05;2025-05
+2025-05-25 20:40:02.048 [main] WARN  org.example.shoppingapp.utils.CsvDataParser - Skipping malformed line 11 in lidl_discounts_2025-05-25.csv: Insufficient fields. Line: 11;15
+2025-05-25 20:40:02.048 [main] WARN  org.example.shoppingapp.utils.CsvDataParser - Skipping malformed line 20 in lidl_discounts_2025-05-25.csv: Insufficient fields. Line: P043;hârtie igienică 3 straturi;Zewa;10;role;produse de menaj;2025-05-03;2025-05
+2025-05-25 20:40:02.048 [main] WARN  org.example.shoppingapp.utils.CsvDataParser - Skipping malformed line 21 in lidl_discounts_2025-05-25.csv: Insufficient fields. Line: 09;14
+2025-05-25 20:40:02.049 [main] INFO  org.example.shoppingapp.utils.CsvDataParser - Parsed 18 discounts from lidl_discounts_2025-05-25.csv
+2025-05-25 20:40:02.049 [main] DEBUG o.example.shoppingapp.service.DataLoadingService - Saved 18 discounts from lidl_discounts_2025-05-25.csv
+2025-05-25 20:40:02.049 [main] INFO  o.example.shoppingapp.service.DataLoadingService - Processing file: profi_2025-05-01.csv
+2025-05-25 20:40:02.050 [main] INFO  org.example.shoppingapp.utils.CsvDataParser - Parsing price file: profi_2025-05-01.csv
+2025-05-25 20:40:02.051 [main] WARN  org.example.shoppingapp.utils.CsvDataParser - Skipping malformed line 2 in profi_2025-05-01.csv: Insufficient fields. Line:  currency
+2025-05-25 20:40:02.051 [main] INFO  org.example.shoppingapp.utils.CsvDataParser - Parsed 20 price entries from profi_2025-05-01.csv
+2025-05-25 20:40:02.051 [main] DEBUG o.example.shoppingapp.service.DataLoadingService - Saved 20 price entries from profi_2025-05-01.csv
+2025-05-25 20:40:02.051 [main] INFO  o.example.shoppingapp.service.DataLoadingService - Processing file: profi_2025-05-25.csv
+2025-05-25 20:40:02.052 [main] INFO  org.example.shoppingapp.utils.CsvDataParser - Parsing price file: profi_2025-05-25.csv
+2025-05-25 20:40:02.052 [main] WARN  org.example.shoppingapp.utils.CsvDataParser - Skipping malformed line 2 in profi_2025-05-25.csv: Insufficient fields. Line:  currency
+2025-05-25 20:40:02.053 [main] WARN  org.example.shoppingapp.model.Product - Normalization skipped for product P045 due to null packageUnitInput.
+2025-05-25 20:40:02.053 [main] INFO  org.example.shoppingapp.utils.CsvDataParser - Parsed 25 price entries from profi_2025-05-25.csv
+2025-05-25 20:40:02.053 [main] DEBUG o.e.s.repository.InMemoryProductRepository - Saved 20 products.
+2025-05-25 20:40:02.053 [main] DEBUG o.example.shoppingapp.service.DataLoadingService - Saved 20 new/updated products from profi_2025-05-25.csv
+2025-05-25 20:40:02.053 [main] DEBUG o.example.shoppingapp.service.DataLoadingService - Saved 25 price entries from profi_2025-05-25.csv
+2025-05-25 20:40:02.053 [main] INFO  o.example.shoppingapp.service.DataLoadingService - Processing file: profi_discounts_2025-05-01.csv
+2025-05-25 20:40:02.053 [main] INFO  org.example.shoppingapp.utils.CsvDataParser - Parsing discount file: profi_discounts_2025-05-01.csv
+2025-05-25 20:40:02.054 [main] WARN  org.example.shoppingapp.utils.CsvDataParser - Skipping malformed line 2 in profi_discounts_2025-05-01.csv: Insufficient fields. Line:  _date;to_date;percentage_of_discount
+2025-05-25 20:40:02.055 [main] INFO  org.example.shoppingapp.utils.CsvDataParser - Parsed 10 discounts from profi_discounts_2025-05-01.csv
+2025-05-25 20:40:02.055 [main] DEBUG o.example.shoppingapp.service.DataLoadingService - Saved 10 discounts from profi_discounts_2025-05-01.csv
+2025-05-25 20:40:02.055 [main] INFO  o.example.shoppingapp.service.DataLoadingService - Processing file: profi_discounts_2025-05-25.csv
+2025-05-25 20:40:02.056 [main] INFO  org.example.shoppingapp.utils.CsvDataParser - Parsing discount file: profi_discounts_2025-05-25.csv
+2025-05-25 20:40:02.057 [main] INFO  org.example.shoppingapp.utils.CsvDataParser - Parsed 13 discounts from profi_discounts_2025-05-25.csv
+2025-05-25 20:40:02.057 [main] DEBUG o.example.shoppingapp.service.DataLoadingService - Saved 13 discounts from profi_discounts_2025-05-25.csv
+2025-05-25 20:40:02.057 [main] INFO  o.example.shoppingapp.service.DataLoadingService - Processing file: users.csv
+2025-05-25 20:40:02.057 [main] WARN  org.example.shoppingapp.utils.CsvDataParser - Skipping file with unrecognized name format: users.csv
+2025-05-25 20:40:02.058 [main] INFO  o.example.shoppingapp.service.DataLoadingService - Loading users from users.csv...
+2025-05-25 20:40:02.058 [main] INFO  org.example.shoppingapp.utils.CsvDataParser - Parsing users file: users.csv
+2025-05-25 20:40:02.059 [main] INFO  org.example.shoppingapp.utils.CsvDataParser - Parsed 5 users from users.csv
+2025-05-25 20:40:02.059 [main] DEBUG o.example.shoppingapp.service.DataLoadingService - Saved user from CSV: ID=1, Username=daria.s, Name=Daria Savu
+2025-05-25 20:40:02.060 [main] DEBUG o.example.shoppingapp.service.DataLoadingService - Saved user from CSV: ID=2, Username=john.d, Name=John Doe
+2025-05-25 20:40:02.060 [main] DEBUG o.example.shoppingapp.service.DataLoadingService - Saved user from CSV: ID=3, Username=alice.w, Name=Alice Wonderland
+2025-05-25 20:40:02.060 [main] DEBUG o.example.shoppingapp.service.DataLoadingService - Saved user from CSV: ID=4, Username=test_user, Name=Test Userescu
+2025-05-25 20:40:02.060 [main] DEBUG o.example.shoppingapp.service.DataLoadingService - Saved user from CSV: ID=100, Username=another.user, Name=Another Person
+2025-05-25 20:40:02.060 [main] INFO  o.example.shoppingapp.service.DataLoadingService - 5 new users loaded from users.csv. Total users in repository: 5
+2025-05-25 20:40:02.060 [main] INFO  o.example.shoppingapp.service.DataLoadingService - Initial data load finished.
+2025-05-25 20:40:02.060 [main] INFO  o.example.shoppingapp.service.DataLoadingService - Total products loaded: 70
+2025-05-25 20:40:02.060 [main] INFO  o.example.shoppingapp.service.DataLoadingService - Total price entries loaded: 140
+2025-05-25 20:40:02.060 [main] INFO  o.example.shoppingapp.service.DataLoadingService - Total discounts loaded: 76
+2025-05-25 20:40:02.060 [main] INFO  o.example.shoppingapp.service.DataLoadingService - Total users loaded: 5
+2025-05-25 20:40:02.185 [main] INFO  org.example.shoppingapp.ShoppingAppApplication - Started ShoppingAppApplication in 1.067 seconds (process running for 1.772)
+2025-05-25 20:40:02.190 [main] INFO  org.example.shoppingapp.CliApplicationRunner - CLI Application Runner started. Type 'help' for commands.
+2025-05-25 20:40:14.101 [main] DEBUG org.example.shoppingapp.service.DiscountService - Fetching best current discounts for date: 2025-05-25, limit: 5
+2025-05-25 20:48:40.196 [main] INFO  org.example.shoppingapp.ShoppingAppApplication - Starting ShoppingAppApplication using Java 17.0.10 with PID 11136 (C:\Users\Daria\Desktop\ShoppingApp\build\classes\java\main started by Daria in C:\Users\Daria\Desktop\ShoppingApp)
+2025-05-25 20:48:40.196 [main] DEBUG org.example.shoppingapp.ShoppingAppApplication - Running with Spring Boot v3.4.5, Spring v6.2.6
+2025-05-25 20:48:40.198 [main] INFO  org.example.shoppingapp.ShoppingAppApplication - No active profile set, falling back to 1 default profile: "default"
+2025-05-25 20:48:40.565 [main] INFO  o.example.shoppingapp.service.DataLoadingService - Starting initial data load from directory: ./data
+2025-05-25 20:48:40.569 [main] INFO  o.example.shoppingapp.service.DataLoadingService - Processing file: kaufland_2025-05-01.csv
+2025-05-25 20:48:40.569 [main] INFO  org.example.shoppingapp.utils.CsvDataParser - Parsing price file: kaufland_2025-05-01.csv
+2025-05-25 20:48:40.570 [main] WARN  org.example.shoppingapp.utils.CsvDataParser - Skipping malformed line 2 in kaufland_2025-05-01.csv: Insufficient fields. Line:  currency
+2025-05-25 20:48:40.573 [main] WARN  org.example.shoppingapp.model.Product - Normalization skipped for product P044 due to null packageUnitInput.
+2025-05-25 20:48:40.575 [main] INFO  org.example.shoppingapp.utils.CsvDataParser - Parsed 25 price entries from kaufland_2025-05-01.csv
+2025-05-25 20:48:40.575 [main] DEBUG o.e.s.repository.InMemoryProductRepository - Saved 25 products.
+2025-05-25 20:48:40.575 [main] DEBUG o.example.shoppingapp.service.DataLoadingService - Saved 25 new/updated products from kaufland_2025-05-01.csv
+2025-05-25 20:48:40.575 [main] DEBUG o.example.shoppingapp.service.DataLoadingService - Saved 25 price entries from kaufland_2025-05-01.csv
+2025-05-25 20:48:40.575 [main] INFO  o.example.shoppingapp.service.DataLoadingService - Processing file: kaufland_2025-05-25.csv
+2025-05-25 20:48:40.575 [main] INFO  org.example.shoppingapp.utils.CsvDataParser - Parsing price file: kaufland_2025-05-25.csv
+2025-05-25 20:48:40.576 [main] WARN  org.example.shoppingapp.utils.CsvDataParser - Skipping malformed line 2 in kaufland_2025-05-25.csv: Insufficient fields. Line:  currency
+2025-05-25 20:48:40.576 [main] INFO  org.example.shoppingapp.utils.CsvDataParser - Parsed 25 price entries from kaufland_2025-05-25.csv
+2025-05-25 20:48:40.576 [main] DEBUG o.e.s.repository.InMemoryProductRepository - Saved 2 products.
+2025-05-25 20:48:40.576 [main] DEBUG o.example.shoppingapp.service.DataLoadingService - Saved 2 new/updated products from kaufland_2025-05-25.csv
+2025-05-25 20:48:40.576 [main] DEBUG o.example.shoppingapp.service.DataLoadingService - Saved 25 price entries from kaufland_2025-05-25.csv
+2025-05-25 20:48:40.576 [main] INFO  o.example.shoppingapp.service.DataLoadingService - Processing file: kaufland_discounts_2025-05-08.csv
+2025-05-25 20:48:40.576 [main] INFO  org.example.shoppingapp.utils.CsvDataParser - Parsing discount file: kaufland_discounts_2025-05-08.csv
+2025-05-25 20:48:40.579 [main] INFO  org.example.shoppingapp.utils.CsvDataParser - Parsed 12 discounts from kaufland_discounts_2025-05-08.csv
+2025-05-25 20:48:40.579 [main] DEBUG o.example.shoppingapp.service.DataLoadingService - Saved 12 discounts from kaufland_discounts_2025-05-08.csv
+2025-05-25 20:48:40.579 [main] INFO  o.example.shoppingapp.service.DataLoadingService - Processing file: kaufland_discounts_2025-05-25.csv
+2025-05-25 20:48:40.579 [main] INFO  org.example.shoppingapp.utils.CsvDataParser - Parsing discount file: kaufland_discounts_2025-05-25.csv
+2025-05-25 20:48:40.580 [main] INFO  org.example.shoppingapp.utils.CsvDataParser - Parsed 12 discounts from kaufland_discounts_2025-05-25.csv
+2025-05-25 20:48:40.580 [main] DEBUG o.example.shoppingapp.service.DataLoadingService - Saved 12 discounts from kaufland_discounts_2025-05-25.csv
+2025-05-25 20:48:40.582 [main] INFO  o.example.shoppingapp.service.DataLoadingService - Processing file: lidl_2025-05-01.csv
+2025-05-25 20:48:40.582 [main] INFO  org.example.shoppingapp.utils.CsvDataParser - Parsing price file: lidl_2025-05-01.csv
+2025-05-25 20:48:40.582 [main] WARN  org.example.shoppingapp.utils.CsvDataParser - Skipping malformed line 2 in lidl_2025-05-01.csv: Insufficient fields. Line:  currency
+2025-05-25 20:48:40.582 [main] WARN  org.example.shoppingapp.model.Product - Normalization skipped for product P043 due to null packageUnitInput.
+2025-05-25 20:48:40.582 [main] INFO  org.example.shoppingapp.utils.CsvDataParser - Parsed 20 price entries from lidl_2025-05-01.csv
+2025-05-25 20:48:40.582 [main] DEBUG o.e.s.repository.InMemoryProductRepository - Saved 18 products.
+2025-05-25 20:48:40.583 [main] DEBUG o.example.shoppingapp.service.DataLoadingService - Saved 18 new/updated products from lidl_2025-05-01.csv
+2025-05-25 20:48:40.583 [main] DEBUG o.example.shoppingapp.service.DataLoadingService - Saved 20 price entries from lidl_2025-05-01.csv
+2025-05-25 20:48:40.583 [main] INFO  o.example.shoppingapp.service.DataLoadingService - Processing file: lidl_2025-05-25.csv
+2025-05-25 20:48:40.583 [main] INFO  org.example.shoppingapp.utils.CsvDataParser - Parsing price file: lidl_2025-05-25.csv
+2025-05-25 20:48:40.584 [main] WARN  org.example.shoppingapp.utils.CsvDataParser - Skipping malformed line 2 in lidl_2025-05-25.csv: Insufficient fields. Line:  currency
+2025-05-25 20:48:40.584 [main] INFO  org.example.shoppingapp.utils.CsvDataParser - Parsed 25 price entries from lidl_2025-05-25.csv
+2025-05-25 20:48:40.584 [main] DEBUG o.e.s.repository.InMemoryProductRepository - Saved 5 products.
+2025-05-25 20:48:40.584 [main] DEBUG o.example.shoppingapp.service.DataLoadingService - Saved 5 new/updated products from lidl_2025-05-25.csv
+2025-05-25 20:48:40.584 [main] DEBUG o.example.shoppingapp.service.DataLoadingService - Saved 25 price entries from lidl_2025-05-25.csv
+2025-05-25 20:48:40.584 [main] INFO  o.example.shoppingapp.service.DataLoadingService - Processing file: lidl_discounts_2025-05-08.csv
+2025-05-25 20:48:40.584 [main] INFO  org.example.shoppingapp.utils.CsvDataParser - Parsing discount file: lidl_discounts_2025-05-08.csv
+2025-05-25 20:48:40.586 [main] WARN  org.example.shoppingapp.utils.CsvDataParser - Skipping malformed line 2 in lidl_discounts_2025-05-08.csv: Insufficient fields. Line:  _date;to_date;percentage_of_discount
+2025-05-25 20:48:40.586 [main] WARN  org.example.shoppingapp.utils.CsvDataParser - Skipping malformed line 9 in lidl_discounts_2025-05-08.csv: Insufficient fields. Line: P040;șampon păr gras;Head & Shoulders;400;ml;îngrijire personală;2025-05-10;2025-05
+2025-05-25 20:48:40.586 [main] WARN  org.example.shoppingapp.utils.CsvDataParser - Skipping malformed line 10 in lidl_discounts_2025-05-08.csv: Insufficient fields. Line: 16;18
+2025-05-25 20:48:40.586 [main] WARN  org.example.shoppingapp.utils.CsvDataParser - Skipping malformed line 11 in lidl_discounts_2025-05-08.csv: Insufficient fields. Line: P043;hârtie igienică 3 straturi;Zewa;10;role;produse de menaj;2025-05-08;2025-05
+2025-05-25 20:48:40.586 [main] WARN  org.example.shoppingapp.utils.CsvDataParser - Skipping malformed line 12 in lidl_discounts_2025-05-08.csv: Insufficient fields. Line: 14;10
+2025-05-25 20:48:40.586 [main] INFO  org.example.shoppingapp.utils.CsvDataParser - Parsed 11 discounts from lidl_discounts_2025-05-08.csv
+2025-05-25 20:48:40.586 [main] DEBUG o.example.shoppingapp.service.DataLoadingService - Saved 11 discounts from lidl_discounts_2025-05-08.csv
+2025-05-25 20:48:40.586 [main] INFO  o.example.shoppingapp.service.DataLoadingService - Processing file: lidl_discounts_2025-05-25.csv
+2025-05-25 20:48:40.586 [main] INFO  org.example.shoppingapp.utils.CsvDataParser - Parsing discount file: lidl_discounts_2025-05-25.csv
+2025-05-25 20:48:40.586 [main] WARN  org.example.shoppingapp.utils.CsvDataParser - Skipping malformed line 2 in lidl_discounts_2025-05-25.csv: Insufficient fields. Line:  _date;to_date;percentage_of_discount
+2025-05-25 20:48:40.587 [main] WARN  org.example.shoppingapp.utils.CsvDataParser - Skipping malformed line 10 in lidl_discounts_2025-05-25.csv: Insufficient fields. Line: P040;șampon păr gras;Head & Shoulders;400;ml;îngrijire personală;2025-05-05;2025-05
+2025-05-25 20:48:40.587 [main] WARN  org.example.shoppingapp.utils.CsvDataParser - Skipping malformed line 11 in lidl_discounts_2025-05-25.csv: Insufficient fields. Line: 11;15
+2025-05-25 20:48:40.587 [main] WARN  org.example.shoppingapp.utils.CsvDataParser - Skipping malformed line 20 in lidl_discounts_2025-05-25.csv: Insufficient fields. Line: P043;hârtie igienică 3 straturi;Zewa;10;role;produse de menaj;2025-05-03;2025-05
+2025-05-25 20:48:40.587 [main] WARN  org.example.shoppingapp.utils.CsvDataParser - Skipping malformed line 21 in lidl_discounts_2025-05-25.csv: Insufficient fields. Line: 09;14
+2025-05-25 20:48:40.589 [main] INFO  org.example.shoppingapp.utils.CsvDataParser - Parsed 18 discounts from lidl_discounts_2025-05-25.csv
+2025-05-25 20:48:40.589 [main] DEBUG o.example.shoppingapp.service.DataLoadingService - Saved 18 discounts from lidl_discounts_2025-05-25.csv
+2025-05-25 20:48:40.589 [main] INFO  o.example.shoppingapp.service.DataLoadingService - Processing file: profi_2025-05-01.csv
+2025-05-25 20:48:40.589 [main] INFO  org.example.shoppingapp.utils.CsvDataParser - Parsing price file: profi_2025-05-01.csv
+2025-05-25 20:48:40.590 [main] WARN  org.example.shoppingapp.utils.CsvDataParser - Skipping malformed line 2 in profi_2025-05-01.csv: Insufficient fields. Line:  currency
+2025-05-25 20:48:40.591 [main] INFO  org.example.shoppingapp.utils.CsvDataParser - Parsed 20 price entries from profi_2025-05-01.csv
+2025-05-25 20:48:40.591 [main] DEBUG o.example.shoppingapp.service.DataLoadingService - Saved 20 price entries from profi_2025-05-01.csv
+2025-05-25 20:48:40.592 [main] INFO  o.example.shoppingapp.service.DataLoadingService - Processing file: profi_2025-05-25.csv
+2025-05-25 20:48:40.592 [main] INFO  org.example.shoppingapp.utils.CsvDataParser - Parsing price file: profi_2025-05-25.csv
+2025-05-25 20:48:40.594 [main] WARN  org.example.shoppingapp.utils.CsvDataParser - Skipping malformed line 2 in profi_2025-05-25.csv: Insufficient fields. Line:  currency
+2025-05-25 20:48:40.594 [main] WARN  org.example.shoppingapp.model.Product - Normalization skipped for product P045 due to null packageUnitInput.
+2025-05-25 20:48:40.594 [main] INFO  org.example.shoppingapp.utils.CsvDataParser - Parsed 25 price entries from profi_2025-05-25.csv
+2025-05-25 20:48:40.594 [main] DEBUG o.e.s.repository.InMemoryProductRepository - Saved 20 products.
+2025-05-25 20:48:40.594 [main] DEBUG o.example.shoppingapp.service.DataLoadingService - Saved 20 new/updated products from profi_2025-05-25.csv
+2025-05-25 20:48:40.594 [main] DEBUG o.example.shoppingapp.service.DataLoadingService - Saved 25 price entries from profi_2025-05-25.csv
+2025-05-25 20:48:40.594 [main] INFO  o.example.shoppingapp.service.DataLoadingService - Processing file: profi_discounts_2025-05-01.csv
+2025-05-25 20:48:40.594 [main] INFO  org.example.shoppingapp.utils.CsvDataParser - Parsing discount file: profi_discounts_2025-05-01.csv
+2025-05-25 20:48:40.595 [main] WARN  org.example.shoppingapp.utils.CsvDataParser - Skipping malformed line 2 in profi_discounts_2025-05-01.csv: Insufficient fields. Line:  _date;to_date;percentage_of_discount
+2025-05-25 20:48:40.596 [main] INFO  org.example.shoppingapp.utils.CsvDataParser - Parsed 10 discounts from profi_discounts_2025-05-01.csv
+2025-05-25 20:48:40.596 [main] DEBUG o.example.shoppingapp.service.DataLoadingService - Saved 10 discounts from profi_discounts_2025-05-01.csv
+2025-05-25 20:48:40.596 [main] INFO  o.example.shoppingapp.service.DataLoadingService - Processing file: profi_discounts_2025-05-25.csv
+2025-05-25 20:48:40.596 [main] INFO  org.example.shoppingapp.utils.CsvDataParser - Parsing discount file: profi_discounts_2025-05-25.csv
+2025-05-25 20:48:40.597 [main] INFO  org.example.shoppingapp.utils.CsvDataParser - Parsed 13 discounts from profi_discounts_2025-05-25.csv
+2025-05-25 20:48:40.598 [main] DEBUG o.example.shoppingapp.service.DataLoadingService - Saved 13 discounts from profi_discounts_2025-05-25.csv
+2025-05-25 20:48:40.598 [main] INFO  o.example.shoppingapp.service.DataLoadingService - Processing file: users.csv
+2025-05-25 20:48:40.598 [main] WARN  org.example.shoppingapp.utils.CsvDataParser - Skipping file with unrecognized name format: users.csv
+2025-05-25 20:48:40.598 [main] INFO  o.example.shoppingapp.service.DataLoadingService - Loading users from users.csv...
+2025-05-25 20:48:40.599 [main] INFO  org.example.shoppingapp.utils.CsvDataParser - Parsing users file: users.csv
+2025-05-25 20:48:40.600 [main] INFO  org.example.shoppingapp.utils.CsvDataParser - Parsed 5 users from users.csv
+2025-05-25 20:48:40.600 [main] DEBUG o.example.shoppingapp.service.DataLoadingService - Saved user from CSV: ID=1, Username=daria.s, Name=Daria Savu
+2025-05-25 20:48:40.600 [main] DEBUG o.example.shoppingapp.service.DataLoadingService - Saved user from CSV: ID=2, Username=john.d, Name=John Doe
+2025-05-25 20:48:40.600 [main] DEBUG o.example.shoppingapp.service.DataLoadingService - Saved user from CSV: ID=3, Username=alice.w, Name=Alice Wonderland
+2025-05-25 20:48:40.600 [main] DEBUG o.example.shoppingapp.service.DataLoadingService - Saved user from CSV: ID=4, Username=test_user, Name=Test Userescu
+2025-05-25 20:48:40.600 [main] DEBUG o.example.shoppingapp.service.DataLoadingService - Saved user from CSV: ID=100, Username=another.user, Name=Another Person
+2025-05-25 20:48:40.600 [main] INFO  o.example.shoppingapp.service.DataLoadingService - 5 new users loaded from users.csv. Total users in repository: 5
+2025-05-25 20:48:40.600 [main] INFO  o.example.shoppingapp.service.DataLoadingService - Initial data load finished.
+2025-05-25 20:48:40.600 [main] INFO  o.example.shoppingapp.service.DataLoadingService - Total products loaded: 70
+2025-05-25 20:48:40.600 [main] INFO  o.example.shoppingapp.service.DataLoadingService - Total price entries loaded: 140
+2025-05-25 20:48:40.600 [main] INFO  o.example.shoppingapp.service.DataLoadingService - Total discounts loaded: 76
+2025-05-25 20:48:40.601 [main] INFO  o.example.shoppingapp.service.DataLoadingService - Total users loaded: 5
+2025-05-25 20:48:40.712 [main] INFO  org.example.shoppingapp.ShoppingAppApplication - Started ShoppingAppApplication in 0.819 seconds (process running for 1.47)
+2025-05-25 20:48:40.716 [main] INFO  org.example.shoppingapp.CliApplicationRunner - CLI Application Runner started.
+2025-05-25 20:49:06.049 [main] DEBUG org.example.shoppingapp.service.DiscountService - Fetching best current discounts for date: 2025-05-25, limit: 5
+2025-05-25 20:49:35.251 [main] DEBUG o.e.s.service.ProductRecommendationService - Getting best value products for productId: Optional.empty, category: Optional[mancare], limit: 4
+2025-05-25 20:49:35.252 [main] INFO  o.e.s.service.ProductRecommendationService - No products found in category mancare for best value recommendations.
+2025-05-25 20:49:57.925 [main] DEBUG o.e.s.service.ProductRecommendationService - Getting best value products for productId: Optional.empty, category: Optional[alimente], limit: 3
+2025-05-25 20:49:57.925 [main] INFO  o.e.s.service.ProductRecommendationService - No products found in category alimente for best value recommendations.
+2025-05-25 20:50:17.476 [main] DEBUG o.e.s.service.ProductRecommendationService - Getting best value products for productId: Optional.empty, category: Optional[lactate], limit: 2
+2025-05-25 20:51:14.708 [main] INFO  o.e.s.service.ShoppingListOptimizerService - Overall estimated basket cost (sum of cheapest items individually): 139.10
+2025-05-25 20:52:14.614 [main] INFO  org.example.shoppingapp.service.PriceAlertService - Price alert set for User ID 1, Product ID P001, Target Price: 9.0
+2025-05-25 20:54:42.150 [main] DEBUG o.example.shoppingapp.service.PriceHistoryService - Fetching price history for productId: P001, store: Optional[lidl], category: Optional.empty, brand: Optional.empty, from: Optional.empty, to: Optional.empty
+2025-05-25 21:24:43.971 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Starting initial data load from directory: C:\Users\Daria\AppData\Local\Temp\testDataDir4588806375467111335
+2025-05-25 21:24:43.999 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Processing file: storeA_2023-01-01.csv
+2025-05-25 21:24:44.170 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Starting initial data load from directory: C:\Users\Daria\AppData\Local\Temp\testDataDir17218252347455787671
+2025-05-25 21:24:44.173 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Processing file: storeA_2023-01-01.csv
+2025-05-25 21:24:44.177 [Test worker] DEBUG o.example.shoppingapp.service.DataLoadingService - Saved 1 new/updated products from storeA_2023-01-01.csv
+2025-05-25 21:24:44.177 [Test worker] DEBUG o.example.shoppingapp.service.DataLoadingService - Saved 1 price entries from storeA_2023-01-01.csv
+2025-05-25 21:24:44.178 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Processing file: storeA_discounts_2023-01-01.csv
+2025-05-25 21:24:44.179 [Test worker] DEBUG o.example.shoppingapp.service.DataLoadingService - Saved 1 discounts from storeA_discounts_2023-01-01.csv
+2025-05-25 21:24:44.179 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Processing file: users.csv
+2025-05-25 21:24:44.181 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Loading users from users.csv...
+2025-05-25 21:24:44.182 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - 0 new users loaded from users.csv. Total users in repository: 0
+2025-05-25 21:24:44.182 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Initial data load finished.
+2025-05-25 21:24:44.183 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Total products loaded: 0
+2025-05-25 21:24:44.184 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Total price entries loaded: 0
+2025-05-25 21:24:44.184 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Total discounts loaded: 0
+2025-05-25 21:24:44.184 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Total users loaded: 0
+2025-05-25 21:24:44.287 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Starting initial data load from directory: C:\Users\Daria\AppData\Local\Temp\testDataDir1236594394190407077\non_existent_dir
+2025-05-25 21:24:44.290 [Test worker] ERROR o.example.shoppingapp.service.DataLoadingService - Data directory not found or is not a directory: C:\Users\Daria\AppData\Local\Temp\testDataDir1236594394190407077\non_existent_dir
+2025-05-25 21:24:44.337 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Starting initial data load from directory: C:\Users\Daria\AppData\Local\Temp\testDataDir6816679767503869702
+2025-05-25 21:24:44.340 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Processing file: storeA_2023-01-01.csv
+2025-05-25 21:24:44.344 [Test worker] ERROR o.example.shoppingapp.service.DataLoadingService - Error processing file storeA_2023-01-01.csv: Test CSV parse error
+java.io.IOException: Test CSV parse error
+	at org.example.shoppingapp.utils.CsvDataParser.parseAllDataFromFile(CsvDataParser.java:40)
+	at org.example.shoppingapp.service.DataLoadingService.processFile(DataLoadingService.java:110)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.stream.SortedOps$RefSortingSink.end(SortedOps.java:395)
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258)
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258)
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:510)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at org.example.shoppingapp.service.DataLoadingService.loadInitialData(DataLoadingService.java:92)
+	at org.example.shoppingapp.services.DataLoadingServiceTest.lambda$loadInitialData_HandlesIOExceptionFromParser$1(DataLoadingServiceTest.java:126)
+	at org.junit.jupiter.api.AssertDoesNotThrow.assertDoesNotThrow(AssertDoesNotThrow.java:49)
+	at org.junit.jupiter.api.AssertDoesNotThrow.assertDoesNotThrow(AssertDoesNotThrow.java:36)
+	at org.junit.jupiter.api.Assertions.assertDoesNotThrow(Assertions.java:3199)
+	at org.example.shoppingapp.services.DataLoadingServiceTest.loadInitialData_HandlesIOExceptionFromParser(DataLoadingServiceTest.java:126)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:767)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$8(TestMethodTestDescriptor.java:217)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:213)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:138)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:68)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:156)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:160)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:160)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:124)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:99)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:94)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:63)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:92)
+	at jdk.proxy1/jdk.proxy1.$Proxy4.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:200)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:132)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:103)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:63)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:121)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+2025-05-25 21:24:44.381 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Processing file: storeA_discounts_2023-01-01.csv
+2025-05-25 21:24:44.384 [Test worker] ERROR o.example.shoppingapp.service.DataLoadingService - Error processing file storeA_discounts_2023-01-01.csv: Test CSV parse error
+java.io.IOException: Test CSV parse error
+	at org.example.shoppingapp.utils.CsvDataParser.parseAllDataFromFile(CsvDataParser.java:40)
+	at org.example.shoppingapp.service.DataLoadingService.processFile(DataLoadingService.java:110)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.stream.SortedOps$RefSortingSink.end(SortedOps.java:395)
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258)
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258)
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:510)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at org.example.shoppingapp.service.DataLoadingService.loadInitialData(DataLoadingService.java:92)
+	at org.example.shoppingapp.services.DataLoadingServiceTest.lambda$loadInitialData_HandlesIOExceptionFromParser$1(DataLoadingServiceTest.java:126)
+	at org.junit.jupiter.api.AssertDoesNotThrow.assertDoesNotThrow(AssertDoesNotThrow.java:49)
+	at org.junit.jupiter.api.AssertDoesNotThrow.assertDoesNotThrow(AssertDoesNotThrow.java:36)
+	at org.junit.jupiter.api.Assertions.assertDoesNotThrow(Assertions.java:3199)
+	at org.example.shoppingapp.services.DataLoadingServiceTest.loadInitialData_HandlesIOExceptionFromParser(DataLoadingServiceTest.java:126)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:767)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$8(TestMethodTestDescriptor.java:217)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:213)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:138)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:68)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:156)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:160)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:160)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:124)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:99)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:94)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:63)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:92)
+	at jdk.proxy1/jdk.proxy1.$Proxy4.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:200)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:132)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:103)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:63)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:121)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+2025-05-25 21:24:44.402 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Processing file: users.csv
+2025-05-25 21:24:44.407 [Test worker] ERROR o.example.shoppingapp.service.DataLoadingService - Error processing file users.csv: Test CSV parse error
+java.io.IOException: Test CSV parse error
+	at org.example.shoppingapp.utils.CsvDataParser.parseAllDataFromFile(CsvDataParser.java:40)
+	at org.example.shoppingapp.service.DataLoadingService.processFile(DataLoadingService.java:110)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.stream.SortedOps$RefSortingSink.end(SortedOps.java:395)
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258)
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258)
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:510)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at org.example.shoppingapp.service.DataLoadingService.loadInitialData(DataLoadingService.java:92)
+	at org.example.shoppingapp.services.DataLoadingServiceTest.lambda$loadInitialData_HandlesIOExceptionFromParser$1(DataLoadingServiceTest.java:126)
+	at org.junit.jupiter.api.AssertDoesNotThrow.assertDoesNotThrow(AssertDoesNotThrow.java:49)
+	at org.junit.jupiter.api.AssertDoesNotThrow.assertDoesNotThrow(AssertDoesNotThrow.java:36)
+	at org.junit.jupiter.api.Assertions.assertDoesNotThrow(Assertions.java:3199)
+	at org.example.shoppingapp.services.DataLoadingServiceTest.loadInitialData_HandlesIOExceptionFromParser(DataLoadingServiceTest.java:126)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:767)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$8(TestMethodTestDescriptor.java:217)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:213)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:138)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:68)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:156)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:160)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:160)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:124)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:99)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:94)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:63)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:92)
+	at jdk.proxy1/jdk.proxy1.$Proxy4.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:200)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:132)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:103)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:63)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:121)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+2025-05-25 21:24:44.427 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Loading users from users.csv...
+2025-05-25 21:24:44.434 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - 0 new users loaded from users.csv. Total users in repository: 0
+2025-05-25 21:24:44.435 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Initial data load finished.
+2025-05-25 21:24:44.436 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Total products loaded: 0
+2025-05-25 21:24:44.437 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Total price entries loaded: 0
+2025-05-25 21:24:44.439 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Total discounts loaded: 0
+2025-05-25 21:24:44.440 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Total users loaded: 0
+2025-05-25 21:24:44.468 [Test worker] WARN  org.example.shoppingapp.model.Product - Normalization skipped for product P_NEW due to null packageUnitInput.
+2025-05-25 21:24:44.471 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Reloading all data...
+2025-05-25 21:24:44.473 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Starting initial data load from directory: C:\Users\Daria\AppData\Local\Temp\testDataDir7282295321058484488
+2025-05-25 21:24:44.476 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Processing file: storeA_2023-01-01.csv
+2025-05-25 21:24:44.478 [Test worker] DEBUG o.example.shoppingapp.service.DataLoadingService - Saved 1 new/updated products from storeA_2023-01-01.csv
+2025-05-25 21:24:44.479 [Test worker] DEBUG o.example.shoppingapp.service.DataLoadingService - Saved 1 price entries from storeA_2023-01-01.csv
+2025-05-25 21:24:44.479 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Processing file: storeA_discounts_2023-01-01.csv
+2025-05-25 21:24:44.480 [Test worker] DEBUG o.example.shoppingapp.service.DataLoadingService - Saved 1 new/updated products from storeA_discounts_2023-01-01.csv
+2025-05-25 21:24:44.482 [Test worker] DEBUG o.example.shoppingapp.service.DataLoadingService - Saved 1 price entries from storeA_discounts_2023-01-01.csv
+2025-05-25 21:24:44.483 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Processing file: users.csv
+2025-05-25 21:24:44.484 [Test worker] DEBUG o.example.shoppingapp.service.DataLoadingService - Saved 1 new/updated products from users.csv
+2025-05-25 21:24:44.486 [Test worker] DEBUG o.example.shoppingapp.service.DataLoadingService - Saved 1 price entries from users.csv
+2025-05-25 21:24:44.488 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Loading users from users.csv...
+2025-05-25 21:24:44.490 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - 0 new users loaded from users.csv. Total users in repository: 2
+2025-05-25 21:24:44.492 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Initial data load finished.
+2025-05-25 21:24:44.493 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Total products loaded: 0
+2025-05-25 21:24:44.494 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Total price entries loaded: 0
+2025-05-25 21:24:44.494 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Total discounts loaded: 0
+2025-05-25 21:24:44.495 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Total users loaded: 2
+2025-05-25 21:24:44.495 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Data reload complete.
+2025-05-25 22:16:05.677 [Test worker] WARN  o.e.s.service.ShoppingListOptimizerService - No current price found for product ID P003. Skipping from optimization.
+2025-05-25 22:16:05.686 [Test worker] INFO  o.e.s.service.ShoppingListOptimizerService - Overall estimated basket cost (sum of cheapest items individually): 5.00
+2025-05-25 22:16:05.745 [Test worker] WARN  o.e.s.service.ShoppingListOptimizerService - Product with ID P999 in basket not found in catalog. Skipping.
+2025-05-25 22:16:05.746 [Test worker] INFO  o.e.s.service.ShoppingListOptimizerService - Overall estimated basket cost (sum of cheapest items individually): 5.00
+2025-05-25 22:16:05.786 [Test worker] INFO  o.e.s.service.ShoppingListOptimizerService - Overall estimated basket cost (sum of cheapest items individually): 13.00
+2025-05-25 22:17:04.527 [Test worker] WARN  o.e.s.service.ShoppingListOptimizerService - No current price found for product ID P003. Skipping from optimization.
+2025-05-25 22:17:04.535 [Test worker] INFO  o.e.s.service.ShoppingListOptimizerService - Overall estimated basket cost (sum of cheapest items individually): 5.00
+2025-05-25 22:17:04.589 [Test worker] WARN  o.e.s.service.ShoppingListOptimizerService - Product with ID P999 in basket not found in catalog. Skipping.
+2025-05-25 22:17:04.590 [Test worker] INFO  o.e.s.service.ShoppingListOptimizerService - Overall estimated basket cost (sum of cheapest items individually): 5.00
+2025-05-25 22:17:04.619 [Test worker] INFO  o.e.s.service.ShoppingListOptimizerService - Overall estimated basket cost (sum of cheapest items individually): 13.00
+2025-05-25 22:17:25.654 [Test worker] WARN  o.e.s.service.ShoppingListOptimizerService - No current price found for product ID P003. Skipping from optimization.
+2025-05-25 22:17:25.662 [Test worker] INFO  o.e.s.service.ShoppingListOptimizerService - Overall estimated basket cost (sum of cheapest items individually): 5.00
+2025-05-25 22:17:25.732 [Test worker] WARN  o.e.s.service.ShoppingListOptimizerService - Product with ID P999 in basket not found in catalog. Skipping.
+2025-05-25 22:17:25.733 [Test worker] INFO  o.e.s.service.ShoppingListOptimizerService - Overall estimated basket cost (sum of cheapest items individually): 5.00
+2025-05-25 22:17:25.757 [Test worker] INFO  o.e.s.service.ShoppingListOptimizerService - Overall estimated basket cost (sum of cheapest items individually): 13.00
+2025-05-25 22:18:15.584 [Test worker] DEBUG o.e.s.service.ProductRecommendationService - Getting best value products for productId: Optional.empty, category: Optional[Lactate], limit: 5
+2025-05-25 22:18:15.655 [Test worker] DEBUG o.e.s.service.ProductRecommendationService - Getting best value products for productId: Optional.empty, category: Optional.empty, limit: 5
+2025-05-25 22:18:15.656 [Test worker] WARN  o.e.s.service.ProductRecommendationService - Either productId or categoryName must be provided for best value recommendations.
+2025-05-25 22:18:15.673 [Test worker] DEBUG o.e.s.service.ProductRecommendationService - Getting best value products for productId: Optional[P001], category: Optional.empty, limit: 5
+2025-05-25 22:18:15.689 [Test worker] DEBUG o.e.s.service.ProductRecommendationService - Getting best value products for productId: Optional[P999], category: Optional.empty, limit: 5
+2025-05-25 22:18:15.689 [Test worker] WARN  o.e.s.service.ProductRecommendationService - Product with ID P999 not found for best value recommendations.
+2025-05-25 22:18:15.690 [Test worker] DEBUG o.e.s.service.ProductRecommendationService - Getting best value products for productId: Optional.empty, category: Optional[Inexistent], limit: 5
+2025-05-25 22:18:15.690 [Test worker] INFO  o.e.s.service.ProductRecommendationService - No products found in category Inexistent for best value recommendations.
+2025-05-25 22:18:15.698 [Test worker] DEBUG o.e.s.service.ProductRecommendationService - Getting best value products for productId: Optional.empty, category: Optional[Lactate], limit: 5
+2025-05-25 22:18:22.731 [Test worker] INFO  org.example.shoppingapp.service.PriceAlertService - Price alert set for User ID 1, Product ID P001, Target Price: 4.5
+2025-05-25 22:18:22.750 [Test worker] INFO  org.example.shoppingapp.service.PriceAlertService - Price alert removed for User ID 1, Product ID P001
+2025-05-25 22:18:22.814 [Test worker] INFO  org.example.shoppingapp.service.PriceAlertService - Price alert set for User ID 1, Product ID P001, Target Price: 4.0
+2025-05-25 22:18:22.841 [Test worker] INFO  org.example.shoppingapp.service.PriceAlertService - Price alert set for User ID 1, Product ID P001, Target Price: 5.0
+2025-05-25 22:18:22.842 [Test worker] INFO  org.example.shoppingapp.service.PriceAlertService - Price alert set for User ID 1, Product ID P001, Target Price: 4.5
+2025-05-25 22:18:22.862 [Test worker] WARN  org.example.shoppingapp.service.PriceAlertService - Cannot set alert. Product with ID P999 not found.
+2025-05-25 22:18:22.873 [Test worker] INFO  org.example.shoppingapp.service.PriceAlertService - Price alert set for User ID 1, Product ID P001, Target Price: 5.0
+2025-05-25 22:18:22.899 [Test worker] INFO  org.example.shoppingapp.service.PriceAlertService - Price alert set for User ID 1, Product ID P001, Target Price: 5.0
+2025-05-25 22:18:22.906 [Test worker] INFO  org.example.shoppingapp.service.PriceAlertService - Found 1 triggered price alerts.
+2025-05-25 22:18:22.914 [Test worker] WARN  org.example.shoppingapp.service.PriceAlertService - Cannot set alert. Target price 0.0 must be positive.
+2025-05-25 22:18:22.915 [Test worker] WARN  org.example.shoppingapp.service.PriceAlertService - Cannot set alert. Target price -1.0 must be positive.
+2025-05-25 22:18:22.921 [Test worker] INFO  org.example.shoppingapp.service.PriceAlertService - Price alert set for User ID 1, Product ID P001, Target Price: 4.5
+2025-05-25 22:18:22.927 [Test worker] WARN  org.example.shoppingapp.service.PriceAlertService - Cannot set alert. User with ID 99 not found.
+2025-05-25 22:18:22.931 [Test worker] INFO  org.example.shoppingapp.service.PriceAlertService - Price alert set for User ID 1, Product ID P001, Target Price: 4.5
+2025-05-25 22:18:22.935 [Test worker] INFO  org.example.shoppingapp.service.PriceAlertService - Price alert set for User ID 1, Product ID P001, Target Price: 4.5
+2025-05-25 22:18:22.936 [Test worker] INFO  org.example.shoppingapp.service.PriceAlertService - Price alert set for User ID 1, Product ID P002, Target Price: 3.0
+2025-05-25 22:18:44.594 [Test worker] INFO  org.example.shoppingapp.service.PriceAlertService - Price alert set for User ID 1, Product ID P001, Target Price: 4.5
+2025-05-25 22:18:44.609 [Test worker] INFO  org.example.shoppingapp.service.PriceAlertService - Price alert removed for User ID 1, Product ID P001
+2025-05-25 22:18:44.668 [Test worker] INFO  org.example.shoppingapp.service.PriceAlertService - Price alert set for User ID 1, Product ID P001, Target Price: 4.0
+2025-05-25 22:18:44.684 [Test worker] INFO  org.example.shoppingapp.service.PriceAlertService - Price alert set for User ID 1, Product ID P001, Target Price: 5.0
+2025-05-25 22:18:44.685 [Test worker] INFO  org.example.shoppingapp.service.PriceAlertService - Price alert set for User ID 1, Product ID P001, Target Price: 4.5
+2025-05-25 22:18:44.706 [Test worker] WARN  org.example.shoppingapp.service.PriceAlertService - Cannot set alert. Product with ID P999 not found.
+2025-05-25 22:18:44.718 [Test worker] INFO  org.example.shoppingapp.service.PriceAlertService - Price alert set for User ID 1, Product ID P001, Target Price: 5.0
+2025-05-25 22:18:44.723 [Test worker] INFO  org.example.shoppingapp.service.PriceAlertService - Found 1 triggered price alerts.
+2025-05-25 22:18:44.733 [Test worker] WARN  org.example.shoppingapp.service.PriceAlertService - Cannot set alert. Target price 0.0 must be positive.
+2025-05-25 22:18:44.734 [Test worker] WARN  org.example.shoppingapp.service.PriceAlertService - Cannot set alert. Target price -1.0 must be positive.
+2025-05-25 22:18:44.744 [Test worker] INFO  org.example.shoppingapp.service.PriceAlertService - Price alert set for User ID 1, Product ID P001, Target Price: 4.5
+2025-05-25 22:18:44.754 [Test worker] WARN  org.example.shoppingapp.service.PriceAlertService - Cannot set alert. User with ID 99 not found.
+2025-05-25 22:18:44.762 [Test worker] INFO  org.example.shoppingapp.service.PriceAlertService - Price alert set for User ID 1, Product ID P001, Target Price: 4.5
+2025-05-25 22:18:44.770 [Test worker] INFO  org.example.shoppingapp.service.PriceAlertService - Price alert set for User ID 1, Product ID P001, Target Price: 4.5
+2025-05-25 22:18:44.771 [Test worker] INFO  org.example.shoppingapp.service.PriceAlertService - Price alert set for User ID 1, Product ID P002, Target Price: 3.0
+2025-05-25 22:18:53.497 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Starting initial data load from directory: C:\Users\Daria\AppData\Local\Temp\testDataDir13454884278988722822
+2025-05-25 22:18:53.522 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Processing file: storeA_2023-01-01.csv
+2025-05-25 22:18:53.534 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Processing file: storeA_discounts_2023-01-01.csv
+2025-05-25 22:18:53.535 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Processing file: users.csv
+2025-05-25 22:18:53.537 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Loading users from users.csv...
+2025-05-25 22:18:53.540 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - 0 new users loaded from users.csv. Total users in repository: 0
+2025-05-25 22:18:53.540 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Initial data load finished.
+2025-05-25 22:18:53.541 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Total products loaded: 0
+2025-05-25 22:18:53.541 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Total price entries loaded: 0
+2025-05-25 22:18:53.542 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Total discounts loaded: 0
+2025-05-25 22:18:53.543 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Total users loaded: 0
+2025-05-25 22:18:53.711 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Loading users from users.csv...
+2025-05-25 22:18:53.713 [Test worker] DEBUG o.example.shoppingapp.service.DataLoadingService - Saved user from CSV: ID=1, Username=user1, Name=Test User
+2025-05-25 22:18:53.714 [Test worker] DEBUG o.example.shoppingapp.service.DataLoadingService - Saved user from CSV: ID=2, Username=user2, Name=Another User
+2025-05-25 22:18:53.716 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - 2 new users loaded from users.csv. Total users in repository: 0
+2025-05-25 22:18:53.805 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Starting initial data load from directory: C:\Users\Daria\AppData\Local\Temp\testDataDir7556037171503959906
+2025-05-25 22:18:53.809 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Processing file: storeA_2023-01-01.csv
+2025-05-25 22:18:53.811 [Test worker] ERROR o.example.shoppingapp.service.DataLoadingService - Error processing file storeA_2023-01-01.csv: Test CSV price parse error
+java.io.IOException: Test CSV price parse error
+	at org.example.shoppingapp.utils.CsvDataParser.parseAllDataFromFile(CsvDataParser.java:40)
+	at org.example.shoppingapp.service.DataLoadingService.processFile(DataLoadingService.java:110)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.stream.SortedOps$RefSortingSink.end(SortedOps.java:395)
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258)
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258)
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:510)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at org.example.shoppingapp.service.DataLoadingService.loadInitialData(DataLoadingService.java:92)
+	at org.example.shoppingapp.service.DataLoadingServiceTest.lambda$loadInitialData_HandlesIOExceptionFromCsvParsing$1(DataLoadingServiceTest.java:131)
+	at org.junit.jupiter.api.AssertDoesNotThrow.assertDoesNotThrow(AssertDoesNotThrow.java:49)
+	at org.junit.jupiter.api.AssertDoesNotThrow.assertDoesNotThrow(AssertDoesNotThrow.java:36)
+	at org.junit.jupiter.api.Assertions.assertDoesNotThrow(Assertions.java:3199)
+	at org.example.shoppingapp.service.DataLoadingServiceTest.loadInitialData_HandlesIOExceptionFromCsvParsing(DataLoadingServiceTest.java:131)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:767)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$8(TestMethodTestDescriptor.java:217)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:213)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:138)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:68)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:156)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:160)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:160)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:124)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:99)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:94)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:63)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:92)
+	at jdk.proxy1/jdk.proxy1.$Proxy4.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:200)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:132)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:103)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:63)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:121)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+2025-05-25 22:18:53.830 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Processing file: storeA_discounts_2023-01-01.csv
+2025-05-25 22:18:53.831 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Processing file: users.csv
+2025-05-25 22:18:53.832 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Loading users from users.csv...
+2025-05-25 22:18:53.838 [Test worker] ERROR o.example.shoppingapp.service.DataLoadingService - Error loading users from users.csv: Test user parse error
+java.io.IOException: Test user parse error
+	at org.example.shoppingapp.utils.CsvDataParser.parseUsersFile(CsvDataParser.java:175)
+	at org.example.shoppingapp.service.DataLoadingService.loadUsersFromCsv(DataLoadingService.java:56)
+	at org.example.shoppingapp.service.DataLoadingService.loadInitialData(DataLoadingService.java:97)
+	at org.example.shoppingapp.service.DataLoadingServiceTest.lambda$loadInitialData_HandlesIOExceptionFromCsvParsing$1(DataLoadingServiceTest.java:131)
+	at org.junit.jupiter.api.AssertDoesNotThrow.assertDoesNotThrow(AssertDoesNotThrow.java:49)
+	at org.junit.jupiter.api.AssertDoesNotThrow.assertDoesNotThrow(AssertDoesNotThrow.java:36)
+	at org.junit.jupiter.api.Assertions.assertDoesNotThrow(Assertions.java:3199)
+	at org.example.shoppingapp.service.DataLoadingServiceTest.loadInitialData_HandlesIOExceptionFromCsvParsing(DataLoadingServiceTest.java:131)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:767)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$8(TestMethodTestDescriptor.java:217)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:213)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:138)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:68)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:156)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:160)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:160)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:124)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:99)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:94)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:63)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:92)
+	at jdk.proxy1/jdk.proxy1.$Proxy4.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:200)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:132)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:103)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:63)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:121)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+2025-05-25 22:18:53.845 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Initial data load finished.
+2025-05-25 22:18:53.847 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Total products loaded: 0
+2025-05-25 22:18:53.850 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Total price entries loaded: 0
+2025-05-25 22:18:53.851 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Total discounts loaded: 0
+2025-05-25 22:18:53.852 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Total users loaded: 0
+2025-05-25 22:18:53.893 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Starting initial data load from directory: C:\Users\Daria\AppData\Local\Temp\testDataDir9058459073913446844
+2025-05-25 22:18:53.897 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Processing file: storeA_2023-01-01.csv
+2025-05-25 22:18:53.898 [Test worker] DEBUG o.example.shoppingapp.service.DataLoadingService - Saved 1 new/updated products from storeA_2023-01-01.csv
+2025-05-25 22:18:53.899 [Test worker] DEBUG o.example.shoppingapp.service.DataLoadingService - Saved 1 price entries from storeA_2023-01-01.csv
+2025-05-25 22:18:53.900 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Processing file: storeA_discounts_2023-01-01.csv
+2025-05-25 22:18:53.902 [Test worker] DEBUG o.example.shoppingapp.service.DataLoadingService - Saved 1 new/updated products from storeA_discounts_2023-01-01.csv
+2025-05-25 22:18:53.902 [Test worker] DEBUG o.example.shoppingapp.service.DataLoadingService - Saved 1 discounts from storeA_discounts_2023-01-01.csv
+2025-05-25 22:18:53.903 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Processing file: users.csv
+2025-05-25 22:18:53.904 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Loading users from users.csv...
+2025-05-25 22:18:53.906 [Test worker] DEBUG o.example.shoppingapp.service.DataLoadingService - Saved user from CSV: ID=1, Username=user1, Name=Test User
+2025-05-25 22:18:53.907 [Test worker] DEBUG o.example.shoppingapp.service.DataLoadingService - Saved user from CSV: ID=2, Username=user2, Name=Another User
+2025-05-25 22:18:53.908 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - 2 new users loaded from users.csv. Total users in repository: 0
+2025-05-25 22:18:53.909 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Initial data load finished.
+2025-05-25 22:18:53.910 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Total products loaded: 0
+2025-05-25 22:18:53.910 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Total price entries loaded: 0
+2025-05-25 22:18:53.911 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Total discounts loaded: 0
+2025-05-25 22:18:53.912 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Total users loaded: 0
+2025-05-25 22:18:54.043 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Starting initial data load from directory: C:\Users\Daria\AppData\Local\Temp\testDataDir9825573017709907588\non_existent_dir
+2025-05-25 22:18:54.046 [Test worker] ERROR o.example.shoppingapp.service.DataLoadingService - Data directory not found or is not a directory: C:\Users\Daria\AppData\Local\Temp\testDataDir9825573017709907588\non_existent_dir
+2025-05-25 22:18:54.062 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Loading users from users.csv...
+2025-05-25 22:18:54.063 [Test worker] WARN  o.example.shoppingapp.service.DataLoadingService - User with ID 1 or Username user1 from CSV already exists. Skipping.
+2025-05-25 22:18:54.064 [Test worker] DEBUG o.example.shoppingapp.service.DataLoadingService - Saved user from CSV: ID=2, Username=user2new, Name=New Two
+2025-05-25 22:18:54.065 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - 1 new users loaded from users.csv. Total users in repository: 0
+2025-05-25 22:18:54.078 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Loading users from users.csv...
+2025-05-25 22:18:54.079 [Test worker] WARN  o.example.shoppingapp.service.DataLoadingService - User with ID 1 or Username user1 from CSV already exists. Skipping.
+2025-05-25 22:18:54.079 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - 0 new users loaded from users.csv. Total users in repository: 0
+2025-05-25 22:18:54.101 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Users file (users.csv) not found in C:\Users\Daria\AppData\Local\Temp\testDataDir11920865169115374123. No users will be loaded from CSV.
+2025-05-25 22:18:54.129 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Reloading all data...
+2025-05-25 22:18:54.129 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Starting initial data load from directory: C:\Users\Daria\AppData\Local\Temp\testDataDir4165437043323466148
+2025-05-25 22:18:54.133 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Processing file: storeA_2023-01-01.csv
+2025-05-25 22:18:54.133 [Test worker] DEBUG o.example.shoppingapp.service.DataLoadingService - Saved 1 new/updated products from storeA_2023-01-01.csv
+2025-05-25 22:18:54.133 [Test worker] DEBUG o.example.shoppingapp.service.DataLoadingService - Saved 1 price entries from storeA_2023-01-01.csv
+2025-05-25 22:18:54.133 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Processing file: storeA_discounts_2023-01-01.csv
+2025-05-25 22:18:54.134 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Processing file: users.csv
+2025-05-25 22:18:54.135 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Loading users from users.csv...
+2025-05-25 22:18:54.138 [Test worker] DEBUG o.example.shoppingapp.service.DataLoadingService - Saved user from CSV: ID=10, Username=reloadUser1, Name=Reload Test
+2025-05-25 22:18:54.140 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - 1 new users loaded from users.csv. Total users in repository: 0
+2025-05-25 22:18:54.140 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Initial data load finished.
+2025-05-25 22:18:54.141 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Total products loaded: 0
+2025-05-25 22:18:54.142 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Total price entries loaded: 0
+2025-05-25 22:18:54.144 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Total discounts loaded: 0
+2025-05-25 22:18:54.145 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Total users loaded: 0
+2025-05-25 22:18:54.146 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Data reload complete.
+2025-05-25 22:19:32.297 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Starting initial data load from directory: C:\Users\Daria\AppData\Local\Temp\testDataDir5304012854255625893
+2025-05-25 22:19:32.316 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Processing file: storeA_2023-01-01.csv
+2025-05-25 22:19:32.317 [Test worker] DEBUG o.example.shoppingapp.service.DataLoadingService - Saved 1 new/updated products from storeA_2023-01-01.csv
+2025-05-25 22:19:32.318 [Test worker] DEBUG o.example.shoppingapp.service.DataLoadingService - Saved 1 price entries from storeA_2023-01-01.csv
+2025-05-25 22:19:32.318 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Processing file: storeA_discounts_2023-01-01.csv
+2025-05-25 22:19:32.319 [Test worker] DEBUG o.example.shoppingapp.service.DataLoadingService - Saved 1 new/updated products from storeA_discounts_2023-01-01.csv
+2025-05-25 22:19:32.319 [Test worker] DEBUG o.example.shoppingapp.service.DataLoadingService - Saved 1 discounts from storeA_discounts_2023-01-01.csv
+2025-05-25 22:19:32.319 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Processing file: users.csv
+2025-05-25 22:19:32.321 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Loading users from users.csv...
+2025-05-25 22:19:32.322 [Test worker] DEBUG o.example.shoppingapp.service.DataLoadingService - Saved user from CSV: ID=1, Username=user1, Name=Test User
+2025-05-25 22:19:32.325 [Test worker] DEBUG o.example.shoppingapp.service.DataLoadingService - Saved user from CSV: ID=2, Username=user2, Name=Another User
+2025-05-25 22:19:32.326 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - 2 new users loaded from users.csv. Total users in repository: 0
+2025-05-25 22:19:32.326 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Initial data load finished.
+2025-05-25 22:19:32.327 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Total products loaded: 0
+2025-05-25 22:19:32.328 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Total price entries loaded: 0
+2025-05-25 22:19:32.329 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Total discounts loaded: 0
+2025-05-25 22:19:32.330 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Total users loaded: 0
+2025-05-25 22:20:13.604 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Starting initial data load from directory: C:\Users\Daria\AppData\Local\Temp\testDataDir14810047186673740233
+2025-05-25 22:20:13.623 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Processing file: storeA_2023-01-01.csv
+2025-05-25 22:20:13.637 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Processing file: storeA_discounts_2023-01-01.csv
+2025-05-25 22:20:13.638 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Processing file: users.csv
+2025-05-25 22:20:13.639 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Loading users from users.csv...
+2025-05-25 22:20:13.642 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - 0 new users loaded from users.csv. Total users in repository: 0
+2025-05-25 22:20:13.643 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Initial data load finished.
+2025-05-25 22:20:13.643 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Total products loaded: 0
+2025-05-25 22:20:13.644 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Total price entries loaded: 0
+2025-05-25 22:20:13.644 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Total discounts loaded: 0
+2025-05-25 22:20:13.645 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Total users loaded: 0
+2025-05-25 22:20:13.760 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Loading users from users.csv...
+2025-05-25 22:20:13.762 [Test worker] DEBUG o.example.shoppingapp.service.DataLoadingService - Saved user from CSV: ID=1, Username=user1, Name=Test User
+2025-05-25 22:20:13.762 [Test worker] DEBUG o.example.shoppingapp.service.DataLoadingService - Saved user from CSV: ID=2, Username=user2, Name=Another User
+2025-05-25 22:20:13.762 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - 2 new users loaded from users.csv. Total users in repository: 0
+2025-05-25 22:20:13.852 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Starting initial data load from directory: C:\Users\Daria\AppData\Local\Temp\testDataDir14177693684911469847
+2025-05-25 22:20:13.854 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Processing file: storeA_2023-01-01.csv
+2025-05-25 22:20:13.857 [Test worker] ERROR o.example.shoppingapp.service.DataLoadingService - Error processing file storeA_2023-01-01.csv: Test CSV price parse error
+java.io.IOException: Test CSV price parse error
+	at org.example.shoppingapp.utils.CsvDataParser.parseAllDataFromFile(CsvDataParser.java:40)
+	at org.example.shoppingapp.service.DataLoadingService.processFile(DataLoadingService.java:110)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.stream.SortedOps$RefSortingSink.end(SortedOps.java:395)
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258)
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258)
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:510)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at org.example.shoppingapp.service.DataLoadingService.loadInitialData(DataLoadingService.java:92)
+	at org.example.shoppingapp.services.DataLoadingServiceTest.lambda$loadInitialData_HandlesIOExceptionFromCsvParsing$1(DataLoadingServiceTest.java:131)
+	at org.junit.jupiter.api.AssertDoesNotThrow.assertDoesNotThrow(AssertDoesNotThrow.java:49)
+	at org.junit.jupiter.api.AssertDoesNotThrow.assertDoesNotThrow(AssertDoesNotThrow.java:36)
+	at org.junit.jupiter.api.Assertions.assertDoesNotThrow(Assertions.java:3199)
+	at org.example.shoppingapp.services.DataLoadingServiceTest.loadInitialData_HandlesIOExceptionFromCsvParsing(DataLoadingServiceTest.java:131)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:767)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$8(TestMethodTestDescriptor.java:217)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:213)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:138)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:68)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:156)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:160)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:160)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:124)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:99)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:94)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:63)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:92)
+	at jdk.proxy1/jdk.proxy1.$Proxy4.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:200)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:132)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:103)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:63)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:121)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+2025-05-25 22:20:13.884 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Processing file: storeA_discounts_2023-01-01.csv
+2025-05-25 22:20:13.885 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Processing file: users.csv
+2025-05-25 22:20:13.888 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Loading users from users.csv...
+2025-05-25 22:20:13.892 [Test worker] ERROR o.example.shoppingapp.service.DataLoadingService - Error loading users from users.csv: Test user parse error
+java.io.IOException: Test user parse error
+	at org.example.shoppingapp.utils.CsvDataParser.parseUsersFile(CsvDataParser.java:175)
+	at org.example.shoppingapp.service.DataLoadingService.loadUsersFromCsv(DataLoadingService.java:56)
+	at org.example.shoppingapp.service.DataLoadingService.loadInitialData(DataLoadingService.java:97)
+	at org.example.shoppingapp.services.DataLoadingServiceTest.lambda$loadInitialData_HandlesIOExceptionFromCsvParsing$1(DataLoadingServiceTest.java:131)
+	at org.junit.jupiter.api.AssertDoesNotThrow.assertDoesNotThrow(AssertDoesNotThrow.java:49)
+	at org.junit.jupiter.api.AssertDoesNotThrow.assertDoesNotThrow(AssertDoesNotThrow.java:36)
+	at org.junit.jupiter.api.Assertions.assertDoesNotThrow(Assertions.java:3199)
+	at org.example.shoppingapp.services.DataLoadingServiceTest.loadInitialData_HandlesIOExceptionFromCsvParsing(DataLoadingServiceTest.java:131)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:767)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$8(TestMethodTestDescriptor.java:217)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:213)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:138)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:68)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:156)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:160)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:160)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:124)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:99)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:94)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:63)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:92)
+	at jdk.proxy1/jdk.proxy1.$Proxy4.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:200)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:132)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:103)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:63)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:121)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+2025-05-25 22:20:13.896 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Initial data load finished.
+2025-05-25 22:20:13.897 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Total products loaded: 0
+2025-05-25 22:20:13.898 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Total price entries loaded: 0
+2025-05-25 22:20:13.899 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Total discounts loaded: 0
+2025-05-25 22:20:13.901 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Total users loaded: 0
+2025-05-25 22:20:13.939 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Starting initial data load from directory: C:\Users\Daria\AppData\Local\Temp\testDataDir18107103940401750653
+2025-05-25 22:20:13.942 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Processing file: storeA_2023-01-01.csv
+2025-05-25 22:20:13.943 [Test worker] DEBUG o.example.shoppingapp.service.DataLoadingService - Saved 1 new/updated products from storeA_2023-01-01.csv
+2025-05-25 22:20:13.944 [Test worker] DEBUG o.example.shoppingapp.service.DataLoadingService - Saved 1 price entries from storeA_2023-01-01.csv
+2025-05-25 22:20:13.944 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Processing file: storeA_discounts_2023-01-01.csv
+2025-05-25 22:20:13.946 [Test worker] DEBUG o.example.shoppingapp.service.DataLoadingService - Saved 1 new/updated products from storeA_discounts_2023-01-01.csv
+2025-05-25 22:20:13.947 [Test worker] DEBUG o.example.shoppingapp.service.DataLoadingService - Saved 1 discounts from storeA_discounts_2023-01-01.csv
+2025-05-25 22:20:13.947 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Processing file: users.csv
+2025-05-25 22:20:13.948 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Loading users from users.csv...
+2025-05-25 22:20:13.950 [Test worker] DEBUG o.example.shoppingapp.service.DataLoadingService - Saved user from CSV: ID=1, Username=user1, Name=Test User
+2025-05-25 22:20:13.951 [Test worker] DEBUG o.example.shoppingapp.service.DataLoadingService - Saved user from CSV: ID=2, Username=user2, Name=Another User
+2025-05-25 22:20:13.951 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - 2 new users loaded from users.csv. Total users in repository: 0
+2025-05-25 22:20:13.951 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Initial data load finished.
+2025-05-25 22:20:13.951 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Total products loaded: 0
+2025-05-25 22:20:13.952 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Total price entries loaded: 0
+2025-05-25 22:20:13.952 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Total discounts loaded: 0
+2025-05-25 22:20:13.953 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Total users loaded: 0
+2025-05-25 22:20:13.976 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Starting initial data load from directory: C:\Users\Daria\AppData\Local\Temp\testDataDir13679017383313695979\non_existent_dir
+2025-05-25 22:20:13.979 [Test worker] ERROR o.example.shoppingapp.service.DataLoadingService - Data directory not found or is not a directory: C:\Users\Daria\AppData\Local\Temp\testDataDir13679017383313695979\non_existent_dir
+2025-05-25 22:20:14.001 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Loading users from users.csv...
+2025-05-25 22:20:14.002 [Test worker] WARN  o.example.shoppingapp.service.DataLoadingService - User with ID 1 or Username user1 from CSV already exists. Skipping.
+2025-05-25 22:20:14.003 [Test worker] DEBUG o.example.shoppingapp.service.DataLoadingService - Saved user from CSV: ID=2, Username=user2new, Name=New Two
+2025-05-25 22:20:14.003 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - 1 new users loaded from users.csv. Total users in repository: 0
+2025-05-25 22:20:14.019 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Loading users from users.csv...
+2025-05-25 22:20:14.020 [Test worker] WARN  o.example.shoppingapp.service.DataLoadingService - User with ID 1 or Username user1 from CSV already exists. Skipping.
+2025-05-25 22:20:14.021 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - 0 new users loaded from users.csv. Total users in repository: 0
+2025-05-25 22:20:14.038 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Users file (users.csv) not found in C:\Users\Daria\AppData\Local\Temp\testDataDir2629346508462979338. No users will be loaded from CSV.
+2025-05-25 22:20:14.053 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Reloading all data...
+2025-05-25 22:20:14.053 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Starting initial data load from directory: C:\Users\Daria\AppData\Local\Temp\testDataDir11904728465328835069
+2025-05-25 22:20:14.055 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Processing file: storeA_2023-01-01.csv
+2025-05-25 22:20:14.055 [Test worker] DEBUG o.example.shoppingapp.service.DataLoadingService - Saved 1 new/updated products from storeA_2023-01-01.csv
+2025-05-25 22:20:14.056 [Test worker] DEBUG o.example.shoppingapp.service.DataLoadingService - Saved 1 price entries from storeA_2023-01-01.csv
+2025-05-25 22:20:14.056 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Processing file: storeA_discounts_2023-01-01.csv
+2025-05-25 22:20:14.056 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Processing file: users.csv
+2025-05-25 22:20:14.057 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Loading users from users.csv...
+2025-05-25 22:20:14.058 [Test worker] DEBUG o.example.shoppingapp.service.DataLoadingService - Saved user from CSV: ID=10, Username=reloadUser1, Name=Reload Test
+2025-05-25 22:20:14.058 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - 1 new users loaded from users.csv. Total users in repository: 0
+2025-05-25 22:20:14.058 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Initial data load finished.
+2025-05-25 22:20:14.059 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Total products loaded: 0
+2025-05-25 22:20:14.059 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Total price entries loaded: 0
+2025-05-25 22:20:14.060 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Total discounts loaded: 0
+2025-05-25 22:20:14.060 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Total users loaded: 0
+2025-05-25 22:20:14.060 [Test worker] INFO  o.example.shoppingapp.service.DataLoadingService - Data reload complete.
+2025-05-25 22:20:27.041 [Test worker] WARN  o.e.s.service.ShoppingListOptimizerService - No current price found for product ID P003. Skipping from optimization.
+2025-05-25 22:20:27.060 [Test worker] INFO  o.e.s.service.ShoppingListOptimizerService - Overall estimated basket cost (sum of cheapest items individually): 5.00
+2025-05-25 22:20:27.158 [Test worker] WARN  o.e.s.service.ShoppingListOptimizerService - Product with ID P999 in basket not found in catalog. Skipping.
+2025-05-25 22:20:27.159 [Test worker] INFO  o.e.s.service.ShoppingListOptimizerService - Overall estimated basket cost (sum of cheapest items individually): 5.00
+2025-05-25 22:20:27.209 [Test worker] INFO  o.e.s.service.ShoppingListOptimizerService - Overall estimated basket cost (sum of cheapest items individually): 13.00
+2025-05-25 22:20:46.053 [Test worker] WARN  o.e.s.service.ShoppingListOptimizerService - No current price found for product ID P003. Skipping from optimization.
+2025-05-25 22:20:46.061 [Test worker] INFO  o.e.s.service.ShoppingListOptimizerService - Overall estimated basket cost (sum of cheapest items individually): 5.00
+2025-05-25 22:20:46.134 [Test worker] INFO  o.e.s.service.ShoppingListOptimizerService - Overall estimated basket cost (sum of cheapest items individually): 13.00

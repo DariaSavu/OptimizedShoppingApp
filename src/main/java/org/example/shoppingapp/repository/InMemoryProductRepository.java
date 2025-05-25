@@ -1,7 +1,7 @@
-package org.example.shoppingapp.repository; // Presupunând că implementarea e aici
+package org.example.shoppingapp.repository;
 
 import org.example.shoppingapp.model.Product;
-import org.example.shoppingapp.repository.interfaces.ProductRepository; // Asigură-te că importul e corect
+import org.example.shoppingapp.repository.interfaces.ProductRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Repository;

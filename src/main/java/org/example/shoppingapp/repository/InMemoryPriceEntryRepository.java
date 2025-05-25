@@ -43,7 +43,7 @@ public class InMemoryPriceEntryRepository implements PriceEntryRepository {
 
     @Override
     public List<PriceEntry> findAll() {
-        return new ArrayList<>(priceEntries); // Return a copy
+        return new ArrayList<>(priceEntries);
     }
 
     @Override
